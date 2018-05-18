@@ -1,9 +1,13 @@
 import sys
 import numpy
 import pandas
+import csv
 
 network = open(sys.argv[1], "r")
 weights = open(sys.argv[2], "r")
+
+data = pandas.read_csv(sys.argv[3], sep = ',', header = 0)
+print(data)
 
 layers = network.readlines()
 
