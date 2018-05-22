@@ -3,6 +3,8 @@ import numpy
 import pandas
 import csv
 
+#parsing dos arquivos
+
 network = open(sys.argv[1], "r")
 weights = open(sys.argv[2], "r")
 
@@ -32,5 +34,12 @@ for layer in range(len(weightLines)):
 		for nW in range(len(weightLines[layer][inputs])):
 			weightLines[layer][inputs][nW] = float(weightLines[layer][inputs][nW])
 
+
 print(weightLines)
+print("Input Neurons:", layers[0])
+print("Network:")
+for layer in range(len(weightLines)):
+	print("Layer", layer+1)
+	for neuron in range(len(weightLines[layer])):
+		print("Neuron", neuron, ", Weight:", weightLines[layer][neuron])
 
