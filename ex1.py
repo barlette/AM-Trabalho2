@@ -4,6 +4,81 @@ import pandas as pd
 import csv
 import math
 
+#Python implementation for Neural Network
+
+#Library imports
+import csv
+import time
+import sys
+import msvcrt
+import random
+
+def divideIntoKFolds(kFolds, fileName):
+    #Variables
+    Classifications = []
+    rawdata = []
+    dataset = []
+
+    #Vamos abrir o arquivo de dados e armazenar em formato string
+    # print('Opening', fileName, '...')
+    with open(fileName, newline='') as csvfile:
+        spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        rawdata = list(spamreader)
+    # print('Dataset successfully read from', fileName)
+
+    #Vamos remover o header do dataframe
+    # print('Processing dataset ...')
+    del rawdata[0]
+    #Vamos converter a lista de strings em lista de valores float
+    for item in rawdata:
+        lista1 = item[0].split(',')
+        flist = [float(i) for i in lista1]
+        Classifications.append(int(flist.pop(0)))
+        dataset.append(flist)
+
+    num_of_classes = len(set(Classifications))
+    # print('Dataset overview:')
+    # for nClass in range(1,num_of_classes+1):
+    #     print('Class', nClass, '= ', Classifications.count(nClass), 'instances')
+
+    #Vamos percorrer a lista de dados e separar em n pilhas de acordo com a classe
+    dct = {}
+    instances_list = []
+    for nClass in range(1,num_of_classes+1):
+        for nIndex in range(0, len(dataset)):
+            if Classifications[nIndex] == nClass:
+                instances_list.append(dataset[nIndex])
+        dct['%s' % nClass] = instances_list
+        instances_list = []
+
+    # print('Creating kFolds...')
+
+    # print(random.randint(1,4))
+    dataFolds = []
+    tempList = []
+    randomIndex = 0
+    for nClass in range(1,num_of_classes+1):
+        instances_list = dct.get('%s' %nClass)
+        while len(instances_list) > 0 :
+            if len(dataFolds) < kFolds:
+                randomIndex = random.randint(0,len(instances_list)-1)
+                tempList.append(instances_list.pop(randomIndex))
+                dataFolds.append(tempList)
+                tempList = []
+            else:
+                for fold in dataFolds:
+                    if not instances_list:
+                        break
+                    randomIndex = random.randint(0,len(instances_list)-1)
+                    fold.append(instances_list.pop(randomIndex))
+
+    # for fold in dataFolds:
+    #     print('Fold[',dataFolds.index(fold),'] created with',len(fold),'instances')
+
+    # print('\n\nPress \'Enter\' to Finish...')
+    # input()
+    return dataFolds
+
 def sigmoid(x):
 	return 1 / (1 + np.exp(-x))
 
