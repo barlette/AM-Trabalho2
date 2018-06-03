@@ -117,9 +117,13 @@ for layer in range(len(weightLines)):
 		print(weightLines[layer][row])
 
 inputs = []
+# inputs.append(np.matrix([[1], [0.13]]))
+# inputs.append(np.matrix([[1], [0.42]]))
 inputs.append(np.matrix([[1], [0.32], [0.68]]))
 inputs.append(np.matrix([[1], [0.83], [0.02]]))
 outputs = []
+# outputs.append(np.matrix([[0.9]]))
+# outputs.append(np.matrix([[0.23]]))
 outputs.append(np.matrix([[0.75], [0.98]]))
 outputs.append(np.matrix([[0.75], [0.28]]))
 
@@ -162,9 +166,11 @@ for inputxDex in range(len(inputs)):
 	J.append((-np.multiply(np.squeeze(np.asarray(outputs[inputxDex])), (np.log(np.squeeze(np.asarray(outputActivations[inputxDex]))))) -np.multiply((1-np.squeeze(np.asarray(outputs[inputxDex]))),  (np.log(1-np.squeeze(np.asarray(outputActivations[inputxDex])))))).sum(axis=0))
 	print("J:", J[inputxDex])
 
+grad = []
 print("\nJ total do dataset (com regularizacao):", (np.sum(J)/len(J))+regJSum)
 print("\n\n-------------------------------------------")
 for inputxDex in range(len(inputs)):
+	gradIndex = 0
 	index = len(activations[inputxDex])-1
 	print("Rodando backpropagation")
 	print("Calculando gradientes")
@@ -173,12 +179,15 @@ for inputxDex in range(len(inputs)):
 	deltaNoBias = outputActivations[inputxDex] - outputs[inputxDex]
 	print("delta", len(layers), ":", deltaNoBias.T)
 	print("Gradientes de Theta", index)
-	grad = []
 	gradtmp = np.multiply(activationsPL, deltaNoBias.T).T
-	grad.append(gradtmp)
+	if inputxDex == 0:
+		grad.append(gradtmp)
+	else:
+		grad[gradIndex] = grad[gradIndex] + gradtmp
 	print(gradtmp)
 
 	while (index > 1):
+		gradIndex = gradIndex+1
 		delta = np.multiply(np.multiply(weightNoBias,deltaNoBias).sum(axis=0), np.multiply(activationsPL, (1-activationsPL)).T)
 		deltaNoBias = delta[0,1:len(np.squeeze(np.asarray(delta)))]
 		print("delta", index, ":", deltaNoBias)
@@ -188,8 +197,24 @@ for inputxDex in range(len(inputs)):
 		weightNoBias = weightLines[index-1]
 		print("Gradientes de Theta", index)
 		gradtmp = np.multiply(activationsPL, deltaNoBias).T
-		grad.append(gradtmp)
+		if inputxDex == 0:
+			grad.append(gradtmp)
+		else:
+			grad[gradIndex] = grad[gradIndex] + gradtmp
 		print(gradtmp)
 		deltaNoBias = deltaNoBias.T
 
-print("--------------------------------------------")
+weightsNoBias = []
+for wLayer in range(len(weightLines)):
+	teste = np.asmatrix(weightLines[wLayer])
+	teste[:,0] = 0
+	weightsNoBias.append(regFactor*teste)
+
+grad.reverse()
+grad = np.add(grad, weightsNoBias)
+grad = 1/len(inputs)*grad
+print("Dataset completo processado. Calculando gradientes regularizados")
+for wLayer in range(len(grad)):
+	print("Gradientes finais para Theta", wLayer+1, "(com regularizacao):")
+	print(grad[wLayer])
+print("\n\n--------------------------------------------")
