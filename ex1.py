@@ -3,14 +3,7 @@ import numpy as np
 import pandas as pd
 import csv
 import math
-
-#Python implementation for Neural Network
-
-#Library imports
-import csv
 import time
-import sys
-import msvcrt
 import random
 
 def divideIntoKFolds(kFolds, fileName):
@@ -144,8 +137,8 @@ for layer in range(len(weightLines)):
 
 #print(norm[1:2])
 
-inputs = np.matrix([[1], [0.13]])
-outputs = np.matrix([[0.9]])
+inputs = np.matrix([[1], [0.32], [0.68]])
+outputs = np.matrix([[0.75], [0.98]])
 
 print("Conjunto de treinamento:")
 print("x:", inputs[1])
@@ -155,95 +148,55 @@ print("Calculando erro/custo J da rede")
 print("Propagando entrada", inputs[1])
 activations = []
 activations.append(inputs)
+z = []
+z.append(inputs)
 
 for layer in range(len(weightLines)):
 	activations.append(sigmoid(np.matmul(weightLines[layer], activations[layer])))
+	z.append(np.matmul(weightLines[layer], activations[layer]))
 	activations[layer+1] = np.vstack([1,activations[layer+1]])
+	z[layer+1] = np.vstack([1,z[layer+1]])
+	print("z",layer,":",z[layer].T)
 	print("a",layer,":",activations[layer].T)
-	#print(sigmoid(activations[layer]))
 
-
-#print(len(activations[len(activations)-1]))
-#print(activations[len(activations)-1][1:len(activations[len(activations)-1])])
 index = len(activations)-1
 outputActivations = activations[index][1:len(activations[index])]
-print("a",len(activations),":",outputActivations)
-# totalError = np.sum(0.5*(np.power(outputs - outputActivations,2)))
-# print("Total error: ",totalError)
-#np.log(np.squeeze(np.asarray(outputActivations)))
-print("Saida predita:", outputActivations)
-print("Saida esperada:", outputs)
-print("J:", -np.multiply(outputs, (np.log(np.squeeze(np.asarray(outputActivations))))) -np.multiply((1-outputs),  (np.log(1-np.squeeze(np.asarray(outputActivations))))))
+outputZ = z[index][1:len(z[index])]
+print("z",len(z),":",outputZ.T)
+print("a",len(activations),":",outputActivations.T)
+
+print("Saida predita:", np.squeeze(np.asarray(outputActivations)))
+print("Saida esperada:", np.squeeze(np.asarray(outputs)))
+print("J:", (-np.multiply(np.squeeze(np.asarray(outputs)), (np.log(np.squeeze(np.asarray(outputActivations))))) -np.multiply((1-np.squeeze(np.asarray(outputs))),  (np.log(1-np.squeeze(np.asarray(outputActivations)))))).sum(axis=0))
 print("--------------------------------------------")
 print("Rodando backpropagation")
 print("Calculando gradientes")
-delta = outputActivations - outputs
-print("delta", len(layers), ":", delta)
 
-activationsPL = activations[index-1][1:len(activations[index-1])]
-weightNoBias = weightLines[index-1][0][1:len(weightLines[index-1][0])]
-print(weightNoBias)
-print(activationsPL)
-delta2 = np.multiply(np.multiply(weightNoBias,delta).sum(axis=0), np.multiply(activationsPL, (1-activationsPL)).T)
-print("delta", len(layers)-1, ":", delta2)
+activationsPL = activations[index-1]
+weightNoBias = weightLines[index-1]
 
-print("Gradientes de Theta 2")
-grad = np.multiply(activationsPL, delta).T 
+deltaNoBias = outputActivations - outputs
+print("delta", len(layers), ":", deltaNoBias)
+
+print("Gradientes de Theta", index)
+grad = np.multiply(activationsPL, deltaNoBias.T).T
 print(grad)
 
-print(weightLines[index-1])
-attWeight = weightLines[index-1] -regFactor*delta
-print(attWeight)
+while index > 1:
+	print(activationsPL)
+	print(weightNoBias)
+	delta = np.multiply(np.multiply(weightNoBias,deltaNoBias).sum(axis=0), np.multiply(activationsPL, (1-activationsPL)).T)
 
-index = index-1
-activationsPL = activations[index-1]
-print("Gradientes de Theta 1")
-grad2 = np.multiply(activationsPL, delta2).T
-print(grad2)
-attWeight2 = weightLines[index-1] -regFactor*delta2
-print(attWeight2)
+	deltaNoBias = delta[0,1:len(np.squeeze(np.asarray(delta)))]
+	print("delta", len(layers)-1, ":", deltaNoBias)
+	temp = delta[0,]
+
+	index = index-1
+	activationsPL = activations[index-1]
+	weightNoBias = weightLines[index-1]
+	print("Gradientes de Theta", index)
+	grad = np.multiply(activationsPL, deltaNoBias).T
+	print(grad)
+	deltaNoBias = deltaNoBias.T
+
 print("--------------------------------------------")
-
-# slopeOut = np.zeros((len(outputActivations),1))
-# slopeOut = derivativeSig(outputActivations)
-# print("slopeOut:", slopeOut)
-
-# delta2 = np.multiply(delta,slopeOut)
-# print("delta:", delta2)
-# #delta = np.ndarray.transpose(delta)
-# #activationsPL = activations[index-1][1:len(activations[index-1])]
-# activationsPL = activations[index-1]
-# print("activationsPL:", activationsPL)
-# print(delta.T)
-# gradiente = np.matmul(activationsPL, delta.T)
-# print("der:", gradiente)
-
-
-
-# attWeight = weightLines[index-1] -(regFactor*gradiente).T
-# print(attWeight)
-
-# #back propagation das camadas internas
-
-# index = index-1
-# #print(activations[index])
-# #dEtotal/douth1 = dEout1/douth1 + dEout2/douth1
-# #dEout1/dnetout1 = deltaout1
-# print("inside backpropagation")
-# print(weightLines[index])
-# print(delta)
-# dInside = np.multiply(weightLines[index], delta)
-# print(dInside)
-# sums = dInside.sum(axis=0)
-# print("sums:", sums)
-# activationsInside = activations[index][1:len(activations[index])]
-# print(activationsInside)
-# douth1 = derivativeSig(activationsInside)
-# print("douth:", douth1)
-# print(activations[index-1])
-# print(np.matmul(activations[index-1], douth1.T))
-# dEtotal = np.matmul(sums, np.matmul(activations[index-1], douth1.T))
-# print(dEtotal)
-# attInternalWeight = weightLines[index-1] -(regFactor*dEtotal).T
-# print(attInternalWeight)
-# #attWeight.append()
