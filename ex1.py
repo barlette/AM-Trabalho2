@@ -5,6 +5,7 @@ import csv
 import math
 import time
 import random
+import copy
 
 def divideIntoKFolds(kFolds, fileName):
     #Variables
@@ -81,7 +82,46 @@ def normalize(df):
 def derivativeSig(x):
 	return np.multiply(x, (1-x))
 
-#parsing dos arquivos
+def forwardProp(inputs, outputs, weightLines, regFactor):
+	regJ = []
+	regJSum = 0
+	for(layer) in range(len(weightLines)):
+		regJ.append(np.power(weightLines[layer],2))
+		regJSum = regJSum + np.sum(regJ[layer][0:len(regJ[layer]),1:])
+		
+	regJSum = (regFactor/(2*len(inputs)))*regJSum
+	J = []
+	activations = []
+	z = []
+	outputActivations = []
+	for inputxDex in range(len(inputs)):
+		# print("Conjunto de treinamento:")
+		# print("x:", inputs[inputxDex])
+		# print("y:", outputs[inputxDex])
+		# print("--------------------------------------------")
+		# print("Calculando erro/custo J da rede")
+		# print("Propagando entrada", inputs[inputxDex])
+		activations.append([])
+		activations[inputxDex].append(inputs[inputxDex])
+		z.append([])
+		z[inputxDex].append(inputs[inputxDex])
+		for layer in range(len(weightLines)):
+			activations[inputxDex].append(sigmoid(np.matmul(weightLines[layer], activations[inputxDex][layer])))
+			z[inputxDex].append(np.matmul(weightLines[layer], activations[inputxDex][layer]))
+			activations[inputxDex][layer+1] = np.vstack([1,activations[inputxDex][layer+1]])
+			z[inputxDex][layer+1] = np.vstack([1,z[inputxDex][layer+1]])
+			# print("z",layer,":",z[inputxDex][layer].T)
+			# print("a",layer,":",activations[inputxDex][layer].T)
+		index = len(activations[inputxDex])-1
+		outputActivations.append(activations[inputxDex][index][1:len(activations[inputxDex][index])])
+		outputZ = z[inputxDex][index][1:len(z[inputxDex][index])]
+		# print("z",len(z[inputxDex]),":",outputZ.T)
+		# print("a",len(activations[inputxDex]),":",outputActivations[inputxDex].T)
+		# print("Saida predita:", np.squeeze(np.asarray(outputActivations[inputxDex])))
+		# print("Saida esperada:", np.squeeze(np.asarray(outputs[inputxDex])))
+		J.append((-np.multiply(np.squeeze(np.asarray(outputs[inputxDex])), (np.log(np.squeeze(np.asarray(outputActivations[inputxDex]))))) -np.multiply((1-np.squeeze(np.asarray(outputs[inputxDex]))),  (np.log(1-np.squeeze(np.asarray(outputActivations[inputxDex])))))).sum(axis=0))
+		# print("J:", J[inputxDex])
+	return ((np.sum(J)/len(J))+regJSum)
 
 network = open(sys.argv[1], "r")
 weights = open(sys.argv[2], "r")
@@ -165,10 +205,10 @@ for inputxDex in range(len(inputs)):
 	print("Saida esperada:", np.squeeze(np.asarray(outputs[inputxDex])))
 	J.append((-np.multiply(np.squeeze(np.asarray(outputs[inputxDex])), (np.log(np.squeeze(np.asarray(outputActivations[inputxDex]))))) -np.multiply((1-np.squeeze(np.asarray(outputs[inputxDex]))),  (np.log(1-np.squeeze(np.asarray(outputActivations[inputxDex])))))).sum(axis=0))
 	print("J:", J[inputxDex])
-
-grad = []
 print("\nJ total do dataset (com regularizacao):", (np.sum(J)/len(J))+regJSum)
 print("\n\n-------------------------------------------")
+
+grad = []
 for inputxDex in range(len(inputs)):
 	gradIndex = 0
 	index = len(activations[inputxDex])-1
@@ -218,3 +258,31 @@ for wLayer in range(len(grad)):
 	print("Gradientes finais para Theta", wLayer+1, "(com regularizacao):")
 	print(grad[wLayer])
 print("\n\n--------------------------------------------")
+eps = 0.000001
+print("Rodando verificacao numerica de gradientes (epsilon=",eps, ")")
+
+JPeps = copy.deepcopy(weightLines)
+JNeps = copy.deepcopy(weightLines)
+Jeps = copy.deepcopy(weightLines)
+for wLayer in range(len(weightLines)):
+	for wRow in range(len(weightLines[wLayer])):
+		for wElement in range(len(weightLines[wLayer][wRow])):
+			weightTemp = copy.deepcopy(weightLines)
+			weightTemp[wLayer][wRow][wElement] = weightTemp[wLayer][wRow][wElement]+eps
+			JPeps[wLayer][wRow][wElement] = forwardProp(inputs, outputs, weightTemp, regFactor)
+			weightTemp = copy.deepcopy(weightLines)
+			weightTemp[wLayer][wRow][wElement] = weightTemp[wLayer][wRow][wElement]-eps
+			JNeps[wLayer][wRow][wElement] = forwardProp(inputs, outputs, weightTemp, regFactor)
+			Jeps[wLayer][wRow][wElement] = ((JPeps[wLayer][wRow][wElement] - JNeps[wLayer][wRow][wElement])/(2*eps))
+	print("Gradiente numerico de Theta", wLayer+1, ":")
+	print(np.asmatrix(Jeps[wLayer]))
+
+print("\n\n--------------------------------------------")
+print("Verificando corretude dos gradientes com base nos gradientes numericos:")
+for wLayer in range(len(Jeps)):
+	print("Erro entre gradiente via backprop e gradiente numerico para Theta",wLayer+1,":")
+	print(np.sum(np.absolute(grad[wLayer] - Jeps[wLayer])))
+
+
+
+
