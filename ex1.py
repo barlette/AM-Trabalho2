@@ -125,12 +125,6 @@ def forwardProp(inputs, outputs, weightLines, regFactor):
 	return ((np.sum(J)/len(J))+regJSum)
 
 
-
-# data = pd.read_csv(sys.argv[3], sep = ',', header = 0)
-# norm = normalize(data)
-
-
-
 network = open(sys.argv[1], "r")
 weights = open(sys.argv[2], "r")
 layers = network.readlines()
@@ -187,15 +181,15 @@ for nFold in range(len(folds)):
 	outputActivations = []
 	for inputxDex in range(len(inputs)):
 		print("Conjunto de treinamento:")
-		print("x:", inputs[inputxDex])
+		print("x:", np.asmatrix(inputs[inputxDex]).T)
 		print("y:", outputs[inputxDex])
 		print("--------------------------------------------")
 		print("Calculando erro/custo J da rede")
-		print("Propagando entrada", inputs[inputxDex])
+		print("Propagando entrada", np.asmatrix(inputs[inputxDex]).T)
 		activations.append([])
-		activations[inputxDex].append(inputs[inputxDex])
+		activations[inputxDex].append(np.asmatrix(inputs[inputxDex]).T)
 		z.append([])
-		z[inputxDex].append(inputs[inputxDex])
+		z[inputxDex].append(np.asmatrix(inputs[inputxDex]).T)
 		for layer in range(len(weightLines)):
 			activations[inputxDex].append(sigmoid(np.matmul(weightLines[layer], activations[inputxDex][layer])))
 			z[inputxDex].append(np.matmul(weightLines[layer], activations[inputxDex][layer]))
@@ -218,6 +212,7 @@ for nFold in range(len(folds)):
 	grad = []
 	for inputxDex in range(len(inputs)):
 		gradIndex = 0
+		print(len(activations[inputxDex]))
 		index = len(activations[inputxDex])-1
 		print("Rodando backpropagation")
 		print("Calculando gradientes")
@@ -225,7 +220,7 @@ for nFold in range(len(folds)):
 		weightNoBias = weightLines[index-1]
 		deltaNoBias = outputActivations[inputxDex] - outputs[inputxDex]
 		print("delta", len(layers), ":", deltaNoBias.T)
-		print("Gradientes de Theta", index)
+		print("Gradientes de Theta", index, ", input:", inputxDex)
 		gradtmp = np.multiply(activationsPL, deltaNoBias.T).T
 		if inputxDex == 0:
 			grad.append(gradtmp)
@@ -242,7 +237,7 @@ for nFold in range(len(folds)):
 			index = index-1
 			activationsPL = activations[inputxDex][index-1]
 			weightNoBias = weightLines[index-1]
-			print("Gradientes de Theta", index)
+			print("Gradientes de Theta", index, ", input:", inputxDex)
 			gradtmp = np.multiply(activationsPL, deltaNoBias).T
 			if inputxDex == 0:
 				grad.append(gradtmp)
@@ -256,7 +251,6 @@ for nFold in range(len(folds)):
 		teste = np.asmatrix(weightLines[wLayer])
 		teste[:,0] = 0
 		weightsNoBias.append(regFactor*teste)
-
 	grad.reverse()
 	grad = np.add(grad, weightsNoBias)
 	grad = 1/len(inputs)*grad
