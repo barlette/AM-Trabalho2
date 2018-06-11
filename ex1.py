@@ -97,16 +97,19 @@ def forwardProp(inputs, outputs, weightLines, regFactor):
 	outputActivations = []
 	for inputxDex in range(len(inputs)):
 		# print("Conjunto de treinamento:")
-		# print("x:", inputs[inputxDex])
+		# print("x:", np.asmatrix(inputs[inputxDex]).T)
 		# print("y:", outputs[inputxDex])
 		# print("--------------------------------------------")
 		# print("Calculando erro/custo J da rede")
-		# print("Propagando entrada", inputs[inputxDex])
+		# print("Propagando entrada", np.asmatrix(inputs[inputxDex]).T)
 		activations.append([])
-		activations[inputxDex].append(inputs[inputxDex])
+		activations[inputxDex].append(inputs[inputxDex].T)
 		z.append([])
-		z[inputxDex].append(inputs[inputxDex])
+		z[inputxDex].append(inputs[inputxDex].T)
 		for layer in range(len(weightLines)):
+			# print(weightLines[layer])
+			# print(activations[inputxDex][layer])
+			# print(np.matmul(weightLines[layer], activations[inputxDex][layer]))
 			activations[inputxDex].append(sigmoid(np.matmul(weightLines[layer], activations[inputxDex][layer])))
 			z[inputxDex].append(np.matmul(weightLines[layer], activations[inputxDex][layer]))
 			activations[inputxDex][layer+1] = np.vstack([1,activations[inputxDex][layer+1]])
@@ -121,8 +124,8 @@ def forwardProp(inputs, outputs, weightLines, regFactor):
 		# print("Saida predita:", np.squeeze(np.asarray(outputActivations[inputxDex])))
 		# print("Saida esperada:", np.squeeze(np.asarray(outputs[inputxDex])))
 		J.append((-np.multiply(np.squeeze(np.asarray(outputs[inputxDex])), (np.log(np.squeeze(np.asarray(outputActivations[inputxDex]))))) -np.multiply((1-np.squeeze(np.asarray(outputs[inputxDex]))),  (np.log(1-np.squeeze(np.asarray(outputActivations[inputxDex])))))).sum(axis=0))
-		# print("J:", J[inputxDex])
-	return ((np.sum(J)/len(J))+regJSum)
+		print("J:", J[inputxDex])
+	print((np.sum(J)/len(J))+regJSum)
 
 
 network = open(sys.argv[1], "r")
@@ -138,127 +141,156 @@ for layer in range(len(layers)):
     corLayers[layer] = layers[layer]-1
 
 corLayers[len(corLayers)-1] = corLayers[len(corLayers)-1]+1
-weightLines = weights.readlines()
+initialWeightLines = weights.readlines()
 wMatrix = np.zeros((0,0))
 
-for layer in range(len(weightLines)):
-	weightLines[layer] = weightLines[layer].split(';')
-	for inputs in range(len(weightLines[layer])):
-		weightLines[layer][inputs] = weightLines[layer][inputs].split(',')		
-		for nW in range(len(weightLines[layer][inputs])):
-			weightLines[layer][inputs][nW] = float(weightLines[layer][inputs][nW])
+for layer in range(len(initialWeightLines)):
+	initialWeightLines[layer] = initialWeightLines[layer].split(';')
+	for inputs in range(len(initialWeightLines[layer])):
+		initialWeightLines[layer][inputs] = initialWeightLines[layer][inputs].split(',')		
+		for nW in range(len(initialWeightLines[layer][inputs])):
+			initialWeightLines[layer][inputs][nW] = float(initialWeightLines[layer][inputs][nW])
 
 print("Parametro de regularizacao lambda: ", regFactor)
 print("Inicializando rede com a seguinte estrutura de neuronios por camadas:", corLayers.T)
 
-for layer in range(len(weightLines)):
+for layer in range(len(initialWeightLines)):
 	print("Theta",layer+1,"inicial (pesos de cada neuronio, incluindo bias, armazenados nas linhas):")
-	for row in range(len(weightLines[layer])):
-		print(weightLines[layer][row])
+	for row in range(len(initialWeightLines[layer])):
+		print(initialWeightLines[layer][row])
 
 folds = divideIntoKFolds(10, sys.argv[3])
 for nFold in range(len(folds)):
+	print("Fold:", nFold)
+	weightLines = initialWeightLines
 	#fold de teste
 	testing = copy.deepcopy(folds[nFold])
 	#o resto para treinamento
-	inputs = np.delete(folds, nFold)
-	inputs = np.concatenate(inputs[0:])
+	inputsTotal = np.delete(folds, nFold)
+	inputsTotal = np.concatenate(inputsTotal[0:])
 	#as saídas esperadas
-	outputs = copy.deepcopy(np.asmatrix(inputs[0:, 0]).T)
+	outputs = copy.deepcopy(np.asmatrix(inputsTotal[0:, 0]).T)
+	# print("outputs:", outputs)
 	#inserindo o bias
-	inputs[0:, 0] = np.ones(len(inputs))
+	inputsTotal[0:, 0] = np.ones(len(inputsTotal))
 
-	regJ = []
-	regJSum = 0
-	for(layer) in range(len(weightLines)):
-		regJ.append(np.power(weightLines[layer],2))
-		regJSum = regJSum + np.sum(regJ[layer][0:len(regJ[layer]),1:])
-	
-	regJSum = (regFactor/(2*len(inputs)))*regJSum
-	J = []
-	activations = []
-	z = []
-	outputActivations = []
-	for inputxDex in range(len(inputs)):
-		print("Conjunto de treinamento:")
-		print("x:", np.asmatrix(inputs[inputxDex]).T)
-		print("y:", outputs[inputxDex])
-		print("--------------------------------------------")
-		print("Calculando erro/custo J da rede")
-		print("Propagando entrada", np.asmatrix(inputs[inputxDex]).T)
-		activations.append([])
-		activations[inputxDex].append(np.asmatrix(inputs[inputxDex]).T)
-		z.append([])
-		z[inputxDex].append(np.asmatrix(inputs[inputxDex]).T)
-		for layer in range(len(weightLines)):
-			activations[inputxDex].append(sigmoid(np.matmul(weightLines[layer], activations[inputxDex][layer])))
-			z[inputxDex].append(np.matmul(weightLines[layer], activations[inputxDex][layer]))
-			activations[inputxDex][layer+1] = np.vstack([1,activations[inputxDex][layer+1]])
-			z[inputxDex][layer+1] = np.vstack([1,z[inputxDex][layer+1]])
-			print("z",layer,":",z[inputxDex][layer].T)
-			print("a",layer,":",activations[inputxDex][layer].T)
-		index = len(activations[inputxDex])-1
-		outputActivations.append(activations[inputxDex][index][1:len(activations[inputxDex][index])])
-		outputZ = z[inputxDex][index][1:len(z[inputxDex][index])]
-		print("z",len(z[inputxDex]),":",outputZ.T)
-		print("a",len(activations[inputxDex]),":",outputActivations[inputxDex].T)
-		print("Saida predita:", np.squeeze(np.asarray(outputActivations[inputxDex])))
-		print("Saida esperada:", np.squeeze(np.asarray(outputs[inputxDex])))
-		J.append((-np.multiply(np.squeeze(np.asarray(outputs[inputxDex])), (np.log(np.squeeze(np.asarray(outputActivations[inputxDex]))))) -np.multiply((1-np.squeeze(np.asarray(outputs[inputxDex]))),  (np.log(1-np.squeeze(np.asarray(outputActivations[inputxDex])))))).sum(axis=0))
-		print("J:", J[inputxDex])
-	print("\nJ total do dataset (com regularizacao):", (np.sum(J)/len(J))+regJSum)
-	print("\n\n-------------------------------------------")
-
-	grad = []
-	for inputxDex in range(len(inputs)):
-		gradIndex = 0
-		print(len(activations[inputxDex]))
-		index = len(activations[inputxDex])-1
-		print("Rodando backpropagation")
-		print("Calculando gradientes")
-		activationsPL = activations[inputxDex][index-1]
-		weightNoBias = weightLines[index-1]
-		deltaNoBias = outputActivations[inputxDex] - outputs[inputxDex]
-		print("delta", len(layers), ":", deltaNoBias.T)
-		print("Gradientes de Theta", index, ", input:", inputxDex)
-		gradtmp = np.multiply(activationsPL, deltaNoBias.T).T
-		if inputxDex == 0:
-			grad.append(gradtmp)
+	minibatch = 1
+	batchIndex = 0
+	while minibatch==1:
+		if(((batchIndex+1)*50) < len(inputsTotal)):
+			inputs = inputsTotal[batchIndex*50:((batchIndex+1)*50)-1,:]
 		else:
-			grad[gradIndex] = grad[gradIndex] + gradtmp
-		print(gradtmp)
+			inputs = inputsTotal[batchIndex*50:len(inputsTotal),:]
+			minibatch = 0
+		batchIndex = batchIndex+1
+		regJ = []
+		regJSum = 0
+		for(layer) in range(len(weightLines)):
+			regJ.append(np.power(weightLines[layer],2))
+			regJSum = regJSum + np.sum(regJ[layer][0:len(regJ[layer]),1:])
+		
+		regJSum = (regFactor/(2*len(inputs)))*regJSum
+		J = []
+		activations = []
+		z = []
+		outputActivations = []
+		for inputxDex in range(len(inputs)):
+			# print("Conjunto de treinamento:")
+			# print("x:", np.asmatrix(inputs[inputxDex]).T)
+			# print("y:", outputs[inputxDex])
+			# print("--------------------------------------------")
+			# print("Calculando erro/custo J da rede")
+			# print("Propagando entrada", np.asmatrix(inputs[inputxDex]).T)
+			activations.append([])
+			activations[inputxDex].append(np.asmatrix(inputs[inputxDex]).T)
+			z.append([])
+			z[inputxDex].append(np.asmatrix(inputs[inputxDex]).T)
+			for layer in range(len(weightLines)):
+				print(weightLines[layer])
+				print(activations[inputxDex][layer])
+				print(np.matmul(weightLines[layer], activations[inputxDex][layer]))
+				activations[inputxDex].append(sigmoid(np.matmul(weightLines[layer], activations[inputxDex][layer])))
+				z[inputxDex].append(np.matmul(weightLines[layer], activations[inputxDex][layer]))
+				activations[inputxDex][layer+1] = np.vstack([1,activations[inputxDex][layer+1]])
+				z[inputxDex][layer+1] = np.vstack([1,z[inputxDex][layer+1]])
+				# print("z",layer,":",z[inputxDex][layer].T)
+				# print("a",layer,":",activations[inputxDex][layer].T)
+			index = len(activations[inputxDex])-1
+			outputActivations.append(activations[inputxDex][index][1:len(activations[inputxDex][index])])
+			outputZ = z[inputxDex][index][1:len(z[inputxDex][index])]
+			# print("z",len(z[inputxDex]),":",outputZ.T)
+			# print("a",len(activations[inputxDex]),":",outputActivations[inputxDex].T)
+			# print("Saida predita:", np.squeeze(np.asarray(outputActivations[inputxDex])))
+			# print("Saida esperada:", np.squeeze(np.asarray(outputs[inputxDex])))
+			J.append((-np.multiply(np.squeeze(np.asarray(outputs[inputxDex])), (np.log(np.squeeze(np.asarray(outputActivations[inputxDex]))))) -np.multiply((1-np.squeeze(np.asarray(outputs[inputxDex]))),  (np.log(1-np.squeeze(np.asarray(outputActivations[inputxDex])))))).sum(axis=0))
+			print("J:", J[inputxDex])
+		print("\nJ total do dataset (com regularizacao):", (np.sum(J)/len(J))+regJSum)
+		print("\n\n-------------------------------------------")
 
-		while (index > 1):
-			gradIndex = gradIndex+1
-			delta = np.multiply(np.multiply(weightNoBias,deltaNoBias).sum(axis=0), np.multiply(activationsPL, (1-activationsPL)).T)
-			deltaNoBias = delta[0,1:len(np.squeeze(np.asarray(delta)))]
-			print("delta", index, ":", deltaNoBias)
-			temp = delta[0,]
-			index = index-1
+		grad = []
+		for inputxDex in range(len(inputs)):
+			gradIndex = 0
+			# print(len(activations[inputxDex]))
+			index = len(activations[inputxDex])-1
+			# print("Rodando backpropagation")
+			# print("Calculando gradientes")
 			activationsPL = activations[inputxDex][index-1]
 			weightNoBias = weightLines[index-1]
-			print("Gradientes de Theta", index, ", input:", inputxDex)
-			gradtmp = np.multiply(activationsPL, deltaNoBias).T
+			deltaNoBias = outputActivations[inputxDex] - outputs[inputxDex]
+			# print("delta", len(layers), ":", deltaNoBias.T)
+			# print("Gradientes de Theta", index, ", input:", inputxDex)
+			gradtmp = np.multiply(activationsPL, deltaNoBias.T).T
 			if inputxDex == 0:
 				grad.append(gradtmp)
 			else:
 				grad[gradIndex] = grad[gradIndex] + gradtmp
-			print(gradtmp)
-			deltaNoBias = deltaNoBias.T
+			# print(gradtmp)
 
-	weightsNoBias = []
-	for wLayer in range(len(weightLines)):
-		teste = np.asmatrix(weightLines[wLayer])
-		teste[:,0] = 0
-		weightsNoBias.append(regFactor*teste)
-	grad.reverse()
-	grad = np.add(grad, weightsNoBias)
-	grad = 1/len(inputs)*grad
-	print("Dataset completo processado. Calculando gradientes regularizados")
-	for wLayer in range(len(grad)):
-		print("Gradientes finais para Theta", wLayer+1, "(com regularizacao):")
-		print(grad[wLayer])
-	print("\n\n--------------------------------------------")
+			while (index > 1):
+				gradIndex = gradIndex+1
+				delta = np.multiply(np.multiply(weightNoBias,deltaNoBias).sum(axis=0), np.multiply(activationsPL, (1-activationsPL)).T)
+				deltaNoBias = delta[0,1:len(np.squeeze(np.asarray(delta)))]
+				# print("delta", index, ":", deltaNoBias)
+				temp = delta[0,]
+				index = index-1
+				activationsPL = activations[inputxDex][index-1]
+				weightNoBias = weightLines[index-1]
+				# print("Gradientes de Theta", index, ", input:", inputxDex)
+				gradtmp = np.multiply(activationsPL, deltaNoBias).T
+				if inputxDex == 0:
+					grad.append(gradtmp)
+				else:
+					grad[gradIndex] = grad[gradIndex] + gradtmp
+				print(gradtmp)
+				deltaNoBias = deltaNoBias.T
+
+		weightsNoBias = []
+		for wLayer in range(len(weightLines)):
+			teste = np.asmatrix(weightLines[wLayer])
+			teste[:,0] = 0
+			weightsNoBias.append(regFactor*teste)
+		grad.reverse()
+		grad = np.add(grad, weightsNoBias)
+		grad = 1/len(inputs)*grad
+		# print("Dataset completo processado. Calculando gradientes regularizados")
+		# print("Pesos antigos:", weightLines)
+		# for wLayer in range(len(grad)):
+		# 	print(np.asmatrix(weightLines[wLayer]))
+		# 	print("Gradientes finais para Theta", wLayer+1, "(com regularizacao):")
+		# 	print(grad[wLayer])
+		# print("\n\n--------------------------------------------")
+		weightLines = weightLines- regFactor*(grad)
+		#print("Pesos atualizados:", weightLines)
+		
+		#print("testing:", testing)
+		#print("testing:", testing[0:][0])
+		inputTesting = np.asmatrix(testing)
+		outputsTesting = copy.deepcopy(np.asmatrix(testing)[0:, 0])
+		#print("outputsTesting:", outputsTesting)
+		inputTesting[:, 0] = 1
+		#print("input testing:", inputTesting)
+		forwardProp(inputTesting, outputsTesting, weightLines, regFactor)
+
 
 # =============================================================
 
