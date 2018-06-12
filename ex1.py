@@ -136,9 +136,9 @@ def forwardProp(inputs, outputs, weightLines, regFactor):
 		J.append((-np.multiply(np.squeeze(np.asarray(outputs[inputxDex])), (np.log(np.squeeze(np.asarray(outputActivations[inputxDex]))))) -np.multiply((1-np.squeeze(np.asarray(outputs[inputxDex]))),  (np.log(1-np.squeeze(np.asarray(outputActivations[inputxDex])))))).sum(axis=0))
 		print("J:", J[inputxDex])
 	outputsTypes = np.unique(np.asarray(outputs))
-	print(outputsTypes)
+	#print(outputsTypes)
 	classOutput = np.zeros((len(outputs),1))
-	print(classOutput)
+	#print(classOutput)
 	dist = np.zeros(len(outputsTypes))
 	for indexout in range(len(outputs)):
 		print("outputs esperados:", outputs[indexout])
@@ -146,36 +146,36 @@ def forwardProp(inputs, outputs, weightLines, regFactor):
 		for types in range(len(outputsTypes)):
 			dist[types] = abs(outputActivations[indexout] - outputsTypes[types])
 		classOutput[indexout] = outputsTypes[np.argmin(dist)]
-		print(dist)
-		print("menor distancia:", np.argmin(dist))
+		#print(dist)
+		#print("menor distancia:", np.argmin(dist))
 	print("Classificação final:", classOutput)
 	print("J final:", (np.sum(J)/len(J))+regJSum)
 	ftable = np.zeros((len(outputsTypes), len(outputsTypes)))
-	print(ftable)
-	print(outputs)
+	#print(ftable)
+	#print(outputs)
 	fMeasure = np.zeros(len(outputsTypes))
 	recall = np.zeros(len(outputsTypes))
 	precision = np.zeros(len(outputsTypes))
 
 	for indexout in range(len(outputs)):
 		row = np.where(outputsTypes == classOutput[indexout])
-		print(row)
+		#print(row)
 		column = np.where(outputsTypes == outputs[indexout])
-		print(column[1])
+		#print(column[1])
 		ftable[row,column[1]] = ftable[row,column[1]]+1
 	
 	for indexout in range(len(outputsTypes)):
-		print(np.sum(ftable, axis=0))
-		print(np.sum(ftable, axis=1))
+		#print(np.sum(ftable, axis=0))
+		#print(np.sum(ftable, axis=1))
 		recall[indexout] = ftable[indexout, indexout]/(ftable[indexout, indexout]+np.sum(ftable, axis=0)[indexout])
 		precision[indexout] = ftable[indexout, indexout]/(ftable[indexout, indexout]+np.sum(ftable, axis=1)[indexout])
-		print(ftable[indexout, indexout])
-		print(recall[indexout])
-		print(precision[indexout])
+		#print(ftable[indexout, indexout])
+		#print(recall[indexout])
+		#print(precision[indexout])
 		fMeasure[indexout] = (2*precision[indexout]*recall[indexout])/(precision[indexout]+recall[indexout])
 	fMeasure[np.isnan(fMeasure)] = 0
-	print(fMeasure)
-	print(ftable)
+	#print(fMeasure)
+	#print(ftable)
 	print("Final FMeasure:", np.sum(fMeasure)/len(fMeasure))
 	return (np.sum(fMeasure)/len(fMeasure))
 
@@ -209,17 +209,18 @@ for layer in range(len(initialWeightLines)):
 #print("Parametro de regularizacao lambda: ", regFactor)
 #print("Inicializando rede com a seguinte estrutura de neuronios por camadas:", corLayers.T)
 
-for layer in range(len(initialWeightLines)):
+#for layer in range(len(initialWeightLines)):
 	#print("Theta",layer+1,"inicial (pesos de cada neuronio, incluindo bias, armazenados nas linhas):")
-	for row in range(len(initialWeightLines[layer])):
-		print(initialWeightLines[layer][row])
+	#for row in range(len(initialWeightLines[layer])):
+		#print(initialWeightLines[layer][row])
 
 
-weightLines = initialWeightLines
+
 folds = divideIntoKFolds(10, sys.argv[3], int(sys.argv[4]))
 fMeasures = np.zeros(len(folds))
 #print(folds[1])
 for nFold in range(len(folds)):
+	weightLines = initialWeightLines
 	print("Fold:", nFold)
 	#print(folds[nFold])
 	#fold de teste
@@ -239,15 +240,15 @@ for nFold in range(len(folds)):
 	else:
 		inputsTotal[0:, 0] = np.ones(len(inputsTotal))
 
-	print("inptusTotal:", inputsTotal)
+	#print("inptusTotal:", inputsTotal)
 
 	minibatch = 1
 	batchIndex = 0
 	while minibatch==1:
-		if(((batchIndex+1)*50) < len(inputsTotal)):
-			inputs = inputsTotal[batchIndex*50:((batchIndex+1)*50)-1,:]
+		if(((batchIndex+1)*5) < len(inputsTotal)):
+			inputs = inputsTotal[batchIndex*5:((batchIndex+1)*5)-1,:]
 		else:
-			inputs = inputsTotal[batchIndex*50:len(inputsTotal),:]
+			inputs = inputsTotal[batchIndex*5:len(inputsTotal),:]
 			minibatch = 0
 		batchIndex = batchIndex+1
 		regJ = []
@@ -280,8 +281,8 @@ for nFold in range(len(folds)):
 			z.append([])
 			z[inputxDex].append(np.asmatrix(inputs[inputxDex]).T)
 			for layer in range(len(weightLines)):
-				print(weightLines[layer])
-				print(activations[inputxDex][layer])
+				#print(weightLines[layer])
+				#print(activations[inputxDex][layer])
 				#print(np.matmul(weightLines[layer], activations[inputxDex][layer]))
 				activations[inputxDex].append(sigmoid(np.matmul(weightLines[layer], activations[inputxDex][layer])))
 				z[inputxDex].append(np.matmul(weightLines[layer], activations[inputxDex][layer]))
@@ -298,8 +299,8 @@ for nFold in range(len(folds)):
 			#print("Saida esperada:", np.squeeze(np.asarray(outputs[inputxDex])))
 			J.append((-np.multiply(np.squeeze(np.asarray(outputs[inputxDex])), (np.log(np.squeeze(np.asarray(outputActivations[inputxDex]))))) -np.multiply((1-np.squeeze(np.asarray(outputs[inputxDex]))),  (np.log(1-np.squeeze(np.asarray(outputActivations[inputxDex])))))).sum(axis=0))
 			#print("J:", J[inputxDex])
-		print("\nJ total do dataset (com regularizacao):", (np.sum(J)/len(J))+regJSum)
-		print("\n\n-------------------------------------------")
+		print("J total do dataset (com regularizacao):", (np.sum(J)/len(J))+regJSum)
+		#print("\n\n-------------------------------------------")
 
 		grad = []
 		for inputxDex in range(len(inputs)):
@@ -346,15 +347,15 @@ for nFold in range(len(folds)):
 		grad.reverse()
 		grad = np.add(grad, weightsNoBias)
 		grad = 1/len(inputs)*grad
-		print("Dataset completo processado. Calculando gradientes regularizados")
-		print("Pesos antigos:", weightLines)
-		for wLayer in range(len(grad)):
-		 	print(np.asmatrix(weightLines[wLayer]))
-		 	print("Gradientes finais para Theta", wLayer+1, "(com regularizacao):")
-		 	print(grad[wLayer])
-		print("\n\n--------------------------------------------")
+		#print("Dataset completo processado. Calculando gradientes regularizados")
+		#print("Pesos antigos:", weightLines)
+		#for wLayer in range(len(grad)):
+		 	#print(np.asmatrix(weightLines[wLayer]))
+		 	#print("Gradientes finais para Theta", wLayer+1, "(com regularizacao):")
+		 	#print(grad[wLayer])
+		#print("\n\n--------------------------------------------")
 		weightLines = weightLines- regFactor*(grad)
-		print("Pesos atualizados:", weightLines)
+		#print("Pesos atualizados:", weightLines)
 		
 		#print("testing:", testing)
 		#print("testing:", testing[0:][0])
@@ -366,6 +367,6 @@ for nFold in range(len(folds)):
 		inputTesting = np.insert(inputTesting, 0, 1, axis=1)
 	else:
 		inputTesting[0:, 0] = np.ones((len(inputTesting),1))
-	print("input testing:", inputTesting)
+	#print("input testing:", inputTesting)
 	fMeasures[nFold] = forwardProp(inputTesting, outputsTesting, weightLines, regFactor)
 print("Final Result:", np.sum(fMeasures)/len(fMeasures))
