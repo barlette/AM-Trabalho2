@@ -1,0 +1,4560 @@
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 4.269068596242043
+J total do dataset (com regularizacao): 3.0428046208891177
+J total do dataset (com regularizacao): 2.8962352021816757
+J total do dataset (com regularizacao): 2.890269233637131
+J total do dataset (com regularizacao): 2.8691205832854636
+J total do dataset (com regularizacao): 2.867023616811755
+J total do dataset (com regularizacao): 7.519884483314325
+Fold: 1
+J total do dataset (com regularizacao): 4.00938219950446
+J total do dataset (com regularizacao): 2.189191852599328
+J total do dataset (com regularizacao): 2.160665437948781
+J total do dataset (com regularizacao): 2.1187635337254602
+J total do dataset (com regularizacao): 2.106945913759933
+J total do dataset (com regularizacao): 2.1099837189625825
+J total do dataset (com regularizacao): 4.4786936855643535
+Fold: 2
+J total do dataset (com regularizacao): 2.0205972513355333
+J total do dataset (com regularizacao): 1.9344889086649681
+J total do dataset (com regularizacao): 1.98676529931747
+J total do dataset (com regularizacao): 1.9433371328458895
+J total do dataset (com regularizacao): 1.9551028004072986
+J total do dataset (com regularizacao): 1.8868681390495294
+J total do dataset (com regularizacao): 3.176559679631902
+Fold: 3
+J total do dataset (com regularizacao): 1.6231083408374487
+J total do dataset (com regularizacao): 1.567588515897365
+J total do dataset (com regularizacao): 1.6297607244811811
+J total do dataset (com regularizacao): 1.6165186082760346
+J total do dataset (com regularizacao): 1.6404755362988663
+J total do dataset (com regularizacao): 1.5919601805480572
+J total do dataset (com regularizacao): 2.2901248754657004
+Fold: 4
+J total do dataset (com regularizacao): 1.3940714353876882
+J total do dataset (com regularizacao): 1.3354014028809278
+J total do dataset (com regularizacao): 1.3942415583855938
+J total do dataset (com regularizacao): 1.3832661115249
+J total do dataset (com regularizacao): 1.4057542865331962
+J total do dataset (com regularizacao): 1.367803238120371
+J total do dataset (com regularizacao): 1.6811181897126075
+Fold: 5
+J total do dataset (com regularizacao): 1.2412454797812782
+J total do dataset (com regularizacao): 1.1639703535781352
+J total do dataset (com regularizacao): 1.2072999945111214
+J total do dataset (com regularizacao): 1.1900588964380512
+J total do dataset (com regularizacao): 1.2005482780658887
+J total do dataset (com regularizacao): 1.1712493958162926
+J total do dataset (com regularizacao): 1.2939305754773716
+Fold: 6
+J total do dataset (com regularizacao): 1.0404256624885106
+J total do dataset (com regularizacao): 0.9898067359334377
+J total do dataset (com regularizacao): 1.0048819157447304
+J total do dataset (com regularizacao): 0.9927802659580734
+J total do dataset (com regularizacao): 0.9899495650926122
+J total do dataset (com regularizacao): 0.9746088027506452
+J total do dataset (com regularizacao): 1.0659994149167953
+Fold: 7
+J total do dataset (com regularizacao): 0.9454711257950279
+J total do dataset (com regularizacao): 0.8898729165874799
+J total do dataset (com regularizacao): 0.8869643107341366
+J total do dataset (com regularizacao): 0.868977972553501
+J total do dataset (com regularizacao): 0.8564831667378024
+J total do dataset (com regularizacao): 0.8437560287626108
+J total do dataset (com regularizacao): 0.9459761255749195
+Fold: 8
+J total do dataset (com regularizacao): 0.9665820838814374
+J total do dataset (com regularizacao): 0.8414950424949417
+J total do dataset (com regularizacao): 0.8285199437197242
+J total do dataset (com regularizacao): 0.8045505866526663
+J total do dataset (com regularizacao): 0.7923566597294809
+J total do dataset (com regularizacao): 0.7838094497799969
+J total do dataset (com regularizacao): 0.8748824360597611
+Fold: 9
+J total do dataset (com regularizacao): 0.9418582860166461
+J total do dataset (com regularizacao): 0.7871604128553666
+J total do dataset (com regularizacao): 0.7772565474745652
+J total do dataset (com regularizacao): 0.7605991067512302
+J total do dataset (com regularizacao): 0.7546014066900527
+J total do dataset (com regularizacao): 0.7509125903398639
+J total do dataset (com regularizacao): 0.8243462424132575
+outputs esperados: [[0.]]
+outputs previstos: [[0.23131733]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.22868085]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.23099318]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.23085304]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.22875807]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.23147367]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.23021111]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.2274839]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.22695316]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.22739314]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.22879843]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.2309824]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22719745]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.23108562]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22752472]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22908701]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22775046]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22786402]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22855335]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22682222]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.23180108]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.227663]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22987202]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22730771]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22777028]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22776679]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22520868]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22774098]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22971708]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22715869]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22691925]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.23004516]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.2294077]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.22706081]]
+J final: 1.1297807574809282
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.8937706115016697
+J total do dataset (com regularizacao): 0.7507274165456362
+J total do dataset (com regularizacao): 0.7464938253020432
+J total do dataset (com regularizacao): 0.7362420074331952
+J total do dataset (com regularizacao): 0.7337330032036932
+J total do dataset (com regularizacao): 0.7316378506968063
+J total do dataset (com regularizacao): 0.7835245782139288
+Fold: 1
+J total do dataset (com regularizacao): 0.9636812136468995
+J total do dataset (com regularizacao): 0.7271606331092235
+J total do dataset (com regularizacao): 0.7315791198697507
+J total do dataset (com regularizacao): 0.7203421870035553
+J total do dataset (com regularizacao): 0.7195785477266459
+J total do dataset (com regularizacao): 0.7180834664932978
+J total do dataset (com regularizacao): 0.7423254761649343
+Fold: 2
+J total do dataset (com regularizacao): 0.8961443020583105
+J total do dataset (com regularizacao): 0.713930913739094
+J total do dataset (com regularizacao): 0.7194190587000365
+J total do dataset (com regularizacao): 0.7109303145445857
+J total do dataset (com regularizacao): 0.7106088795301411
+J total do dataset (com regularizacao): 0.7095085052835972
+J total do dataset (com regularizacao): 0.7143084539295391
+Fold: 3
+J total do dataset (com regularizacao): 0.8563564000551875
+J total do dataset (com regularizacao): 0.7064916599247907
+J total do dataset (com regularizacao): 0.7120557763794855
+J total do dataset (com regularizacao): 0.705053947617956
+J total do dataset (com regularizacao): 0.7048894749305651
+J total do dataset (com regularizacao): 0.703989308557447
+J total do dataset (com regularizacao): 0.6953629175026609
+Fold: 4
+J total do dataset (com regularizacao): 0.8332219630050995
+J total do dataset (com regularizacao): 0.7019395631401484
+J total do dataset (com regularizacao): 0.7074289526413816
+J total do dataset (com regularizacao): 0.7012513916952375
+J total do dataset (com regularizacao): 0.7011698731301012
+J total do dataset (com regularizacao): 0.7003884115888881
+J total do dataset (com regularizacao): 0.6827084570519326
+Fold: 5
+J total do dataset (com regularizacao): 0.8194242703836654
+J total do dataset (com regularizacao): 0.6990218526004258
+J total do dataset (com regularizacao): 0.7044291861558823
+J total do dataset (com regularizacao): 0.698716954751216
+J total do dataset (com regularizacao): 0.698724413916845
+J total do dataset (com regularizacao): 0.698007431330568
+J total do dataset (com regularizacao): 0.678703706576417
+Fold: 6
+J total do dataset (com regularizacao): 0.7792185846978347
+J total do dataset (com regularizacao): 0.6971051342347012
+J total do dataset (com regularizacao): 0.7009028398642017
+J total do dataset (com regularizacao): 0.6968532896483022
+J total do dataset (com regularizacao): 0.6968853910635988
+J total do dataset (com regularizacao): 0.6963543527007743
+J total do dataset (com regularizacao): 0.6788615508630224
+Fold: 7
+J total do dataset (com regularizacao): 0.7524847711222931
+J total do dataset (com regularizacao): 0.6957817783841812
+J total do dataset (com regularizacao): 0.6984135328310618
+J total do dataset (com regularizacao): 0.6955641524504323
+J total do dataset (com regularizacao): 0.6956236464114368
+J total do dataset (com regularizacao): 0.6952117440208064
+J total do dataset (com regularizacao): 0.6766660418809213
+Fold: 8
+J total do dataset (com regularizacao): 0.7510792363120854
+J total do dataset (com regularizacao): 0.6948675831733099
+J total do dataset (com regularizacao): 0.697497624043114
+J total do dataset (com regularizacao): 0.6947204808812021
+J total do dataset (com regularizacao): 0.6948035492620672
+J total do dataset (com regularizacao): 0.6944549387049055
+J total do dataset (com regularizacao): 0.6745927819745131
+Fold: 9
+J total do dataset (com regularizacao): 0.7504191027806888
+J total do dataset (com regularizacao): 0.6942226202661825
+J total do dataset (com regularizacao): 0.6968837131888069
+J total do dataset (com regularizacao): 0.6941357081424472
+J total do dataset (com regularizacao): 0.6942311699763638
+J total do dataset (com regularizacao): 0.6939182328480039
+J total do dataset (com regularizacao): 0.6731029273535601
+outputs esperados: [[0.]]
+outputs previstos: [[0.31801817]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3181855]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31790074]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3179958]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31803235]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31802036]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31802148]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31816827]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31792311]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31798423]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31803684]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31802099]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31810768]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31824454]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31829244]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31832604]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3182494]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31810045]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31807849]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31831467]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31826204]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31825975]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31826757]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31838713]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31816336]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3182721]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31825043]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31827171]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31805741]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31814527]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31850752]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31807359]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3180401]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31806865]]
+J final: 0.8802325846865278
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.749977880264761
+J total do dataset (com regularizacao): 0.6937835609275446
+J total do dataset (com regularizacao): 0.6964161867123714
+J total do dataset (com regularizacao): 0.693748090345621
+J total do dataset (com regularizacao): 0.6938227471577225
+J total do dataset (com regularizacao): 0.6935278769381304
+J total do dataset (com regularizacao): 0.6625645045312624
+Fold: 1
+J total do dataset (com regularizacao): 0.8041197114548003
+J total do dataset (com regularizacao): 0.6935179792644927
+J total do dataset (com regularizacao): 0.6988978574129309
+J total do dataset (com regularizacao): 0.6938026980184177
+J total do dataset (com regularizacao): 0.6939380533242543
+J total do dataset (com regularizacao): 0.6934209198301847
+J total do dataset (com regularizacao): 0.6587958884790508
+Fold: 2
+J total do dataset (com regularizacao): 0.8027786282608345
+J total do dataset (com regularizacao): 0.6933250469882833
+J total do dataset (com regularizacao): 0.6988263028825451
+J total do dataset (com regularizacao): 0.6937273369202946
+J total do dataset (com regularizacao): 0.693845745228558
+J total do dataset (com regularizacao): 0.6933217001726696
+J total do dataset (com regularizacao): 0.6580260294598099
+Fold: 3
+J total do dataset (com regularizacao): 0.8011272391739617
+J total do dataset (com regularizacao): 0.6932352020241049
+J total do dataset (com regularizacao): 0.6987238875868327
+J total do dataset (com regularizacao): 0.6936711837860271
+J total do dataset (com regularizacao): 0.693779254291113
+J total do dataset (com regularizacao): 0.6932594170812977
+J total do dataset (com regularizacao): 0.6576158677584476
+Fold: 4
+J total do dataset (com regularizacao): 0.7999306011623014
+J total do dataset (com regularizacao): 0.6931785506549005
+J total do dataset (com regularizacao): 0.6986560450715928
+J total do dataset (com regularizacao): 0.693637356018518
+J total do dataset (com regularizacao): 0.6937380564354395
+J total do dataset (com regularizacao): 0.6932223824771852
+J total do dataset (com regularizacao): 0.6573521300995653
+Fold: 5
+J total do dataset (com regularizacao): 0.7990866312754156
+J total do dataset (com regularizacao): 0.6931431785219156
+J total do dataset (com regularizacao): 0.6986140630242873
+J total do dataset (com regularizacao): 0.6936233204410135
+J total do dataset (com regularizacao): 0.693707840591432
+J total do dataset (com regularizacao): 0.6931998574701941
+J total do dataset (com regularizacao): 0.6628966078326272
+Fold: 6
+J total do dataset (com regularizacao): 0.7692124590475825
+J total do dataset (com regularizacao): 0.693073042785137
+J total do dataset (com regularizacao): 0.6970164560695638
+J total do dataset (com regularizacao): 0.6933676614511087
+J total do dataset (com regularizacao): 0.6934513324646763
+J total do dataset (com regularizacao): 0.6930684385811123
+J total do dataset (com regularizacao): 0.6689574110299277
+Fold: 7
+J total do dataset (com regularizacao): 0.7469030416881283
+J total do dataset (com regularizacao): 0.692983942108517
+J total do dataset (com regularizacao): 0.6957358479559245
+J total do dataset (com regularizacao): 0.6931342975223916
+J total do dataset (com regularizacao): 0.6932020934502598
+J total do dataset (com regularizacao): 0.6929352108443588
+J total do dataset (com regularizacao): 0.6698715392159179
+Fold: 8
+J total do dataset (com regularizacao): 0.7471400329007633
+J total do dataset (com regularizacao): 0.6929152956504389
+J total do dataset (com regularizacao): 0.6956351038769998
+J total do dataset (com regularizacao): 0.6930410711820854
+J total do dataset (com regularizacao): 0.6931156468548364
+J total do dataset (com regularizacao): 0.6928666367923051
+J total do dataset (com regularizacao): 0.6698490033156668
+Fold: 9
+J total do dataset (com regularizacao): 0.747671437207514
+J total do dataset (com regularizacao): 0.6928585762462823
+J total do dataset (com regularizacao): 0.6955908091713163
+J total do dataset (com regularizacao): 0.6929755348145127
+J total do dataset (com regularizacao): 0.6930539854882911
+J total do dataset (com regularizacao): 0.6928115554953906
+J total do dataset (com regularizacao): 0.669778134890845
+outputs esperados: [[0.]]
+outputs previstos: [[0.31947267]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.319479]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31952907]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31943147]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3194598]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31945831]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31943598]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31943858]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31952842]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31939625]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3195125]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31941203]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31948792]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31950122]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31947375]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31947127]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31947515]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31949755]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31949113]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31949381]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31947975]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31954525]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31943902]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31948921]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31943264]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31949722]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31948892]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31947513]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31949673]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3195129]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31950442]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31948496]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31951791]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3195007]]
+J final: 0.8769023810237845
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7481603300563069
+J total do dataset (com regularizacao): 0.6928234560782213
+J total do dataset (com regularizacao): 0.6955579299706033
+J total do dataset (com regularizacao): 0.6929258423258162
+J total do dataset (com regularizacao): 0.693000770627074
+J total do dataset (com regularizacao): 0.6927647950083565
+J total do dataset (com regularizacao): 0.6599714157631299
+Fold: 1
+J total do dataset (com regularizacao): 0.8021671046661268
+J total do dataset (com regularizacao): 0.6928391276495642
+J total do dataset (com regularizacao): 0.6983209516249161
+J total do dataset (com regularizacao): 0.6932436014552459
+J total do dataset (com regularizacao): 0.6933608200187324
+J total do dataset (com regularizacao): 0.6928986573177367
+J total do dataset (com regularizacao): 0.6570266542001442
+Fold: 2
+J total do dataset (com regularizacao): 0.8019531249155994
+J total do dataset (com regularizacao): 0.692864206158412
+J total do dataset (com regularizacao): 0.6984430245266467
+J total do dataset (com regularizacao): 0.6933294638958668
+J total do dataset (com regularizacao): 0.6934294689072356
+J total do dataset (com regularizacao): 0.6929531792037005
+J total do dataset (com regularizacao): 0.6568450067987281
+Fold: 3
+J total do dataset (com regularizacao): 0.8009825392453581
+J total do dataset (com regularizacao): 0.6929034693312434
+J total do dataset (com regularizacao): 0.6984622160934452
+J total do dataset (com regularizacao): 0.693381662324612
+J total do dataset (com regularizacao): 0.6934730538117596
+J total do dataset (com regularizacao): 0.6929938430817323
+J total do dataset (com regularizacao): 0.6568224135794448
+Fold: 4
+J total do dataset (com regularizacao): 0.8001884627903448
+J total do dataset (com regularizacao): 0.6929346452466033
+J total do dataset (com regularizacao): 0.6984662731862918
+J total do dataset (com regularizacao): 0.6934240718724873
+J total do dataset (com regularizacao): 0.6935085609497471
+J total do dataset (com regularizacao): 0.6930273282390068
+J total do dataset (com regularizacao): 0.6568126084123851
+Fold: 5
+J total do dataset (com regularizacao): 0.7995690636076391
+J total do dataset (com regularizacao): 0.6929605063698469
+J total do dataset (com regularizacao): 0.6984728869236118
+J total do dataset (com regularizacao): 0.6934519071453946
+J total do dataset (com regularizacao): 0.6935395449186759
+J total do dataset (com regularizacao): 0.693054304382183
+J total do dataset (com regularizacao): 0.6625349757486997
+Fold: 6
+J total do dataset (com regularizacao): 0.7696200635942592
+J total do dataset (com regularizacao): 0.6929375477788109
+J total do dataset (com regularizacao): 0.696907755361171
+J total do dataset (com regularizacao): 0.6932398154007883
+J total do dataset (com regularizacao): 0.6933148625852974
+J total do dataset (com regularizacao): 0.6929646748496785
+J total do dataset (com regularizacao): 0.6687111061786263
+Fold: 7
+J total do dataset (com regularizacao): 0.7471744267146277
+J total do dataset (com regularizacao): 0.692884641743321
+J total do dataset (com regularizacao): 0.6956521218249357
+J total do dataset (com regularizacao): 0.6930389856417766
+J total do dataset (com regularizacao): 0.6931045000277736
+J total do dataset (com regularizacao): 0.6928577237409386
+J total do dataset (com regularizacao): 0.6696926993164759
+Fold: 8
+J total do dataset (com regularizacao): 0.7473901719353511
+J total do dataset (com regularizacao): 0.6928416189937869
+J total do dataset (com regularizacao): 0.6955739665520938
+J total do dataset (com regularizacao): 0.6929690439861578
+J total do dataset (com regularizacao): 0.6930414050406218
+J total do dataset (com regularizacao): 0.6928031459603181
+J total do dataset (com regularizacao): 0.6696977509157686
+Fold: 9
+J total do dataset (com regularizacao): 0.7479029628407649
+J total do dataset (com regularizacao): 0.6928034838696252
+J total do dataset (com regularizacao): 0.6955465391238572
+J total do dataset (com regularizacao): 0.692920819601691
+J total do dataset (com regularizacao): 0.6929978357254407
+J total do dataset (com regularizacao): 0.6927636669104399
+J total do dataset (com regularizacao): 0.669665904557235
+outputs esperados: [[0.]]
+outputs previstos: [[0.31914488]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31916171]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31916679]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31916061]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31915627]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31914381]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31915266]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31912951]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31915015]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31912942]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31915355]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.319154]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31918081]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31917284]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31915569]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31916573]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31915087]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31915258]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31918327]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31915042]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31918234]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31917863]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3191838]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31918897]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31917804]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31915218]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31916901]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31915332]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31914904]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3191641]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31917894]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31917714]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31917758]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31918812]]
+J final: 0.8773306656879375
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7483482353947214
+J total do dataset (com regularizacao): 0.6927730150315549
+J total do dataset (com regularizacao): 0.6955263831935123
+J total do dataset (com regularizacao): 0.6928847079409284
+J total do dataset (com regularizacao): 0.6929663194241616
+J total do dataset (com regularizacao): 0.6927317284326874
+J total do dataset (com regularizacao): 0.6599036722447148
+Fold: 1
+J total do dataset (com regularizacao): 0.802497347095418
+J total do dataset (com regularizacao): 0.6927939545047231
+J total do dataset (com regularizacao): 0.6983015328768934
+J total do dataset (com regularizacao): 0.6932083057629803
+J total do dataset (com regularizacao): 0.6933340942337439
+J total do dataset (com regularizacao): 0.6928716694903352
+J total do dataset (com regularizacao): 0.6569897311263465
+Fold: 2
+J total do dataset (com regularizacao): 0.8022669733762945
+J total do dataset (com regularizacao): 0.6928387982153197
+J total do dataset (com regularizacao): 0.6984234650062761
+J total do dataset (com regularizacao): 0.6932984270033287
+J total do dataset (com regularizacao): 0.6934077350419131
+J total do dataset (com regularizacao): 0.6929302932903293
+J total do dataset (com regularizacao): 0.6568244559923471
+Fold: 3
+J total do dataset (com regularizacao): 0.8012758067406156
+J total do dataset (com regularizacao): 0.6928791678840395
+J total do dataset (com regularizacao): 0.6984420754224085
+J total do dataset (com regularizacao): 0.6933551484063493
+J total do dataset (com regularizacao): 0.693456364125767
+J total do dataset (com regularizacao): 0.6929746903723096
+J total do dataset (com regularizacao): 0.6568076303147026
+Fold: 4
+J total do dataset (com regularizacao): 0.800451548579686
+J total do dataset (com regularizacao): 0.6929147967105569
+J total do dataset (com regularizacao): 0.6984599350478226
+J total do dataset (com regularizacao): 0.6933997177630391
+J total do dataset (com regularizacao): 0.6934952654464184
+J total do dataset (com regularizacao): 0.6930106826983795
+J total do dataset (com regularizacao): 0.656805767544748
+Fold: 5
+J total do dataset (com regularizacao): 0.7998029255358666
+J total do dataset (com regularizacao): 0.692944023398599
+J total do dataset (com regularizacao): 0.6984700413966106
+J total do dataset (com regularizacao): 0.6934382555351248
+J total do dataset (com regularizacao): 0.6935257485303972
+J total do dataset (com regularizacao): 0.6930400029258426
+J total do dataset (com regularizacao): 0.662531693291042
+Fold: 6
+J total do dataset (com regularizacao): 0.7697685346718475
+J total do dataset (com regularizacao): 0.6929244428539147
+J total do dataset (com regularizacao): 0.6969033041123889
+J total do dataset (com regularizacao): 0.6932287546922269
+J total do dataset (com regularizacao): 0.6933065647389162
+J total do dataset (com regularizacao): 0.6929515676884758
+J total do dataset (com regularizacao): 0.6687044920087731
+Fold: 7
+J total do dataset (com regularizacao): 0.7472596891563699
+J total do dataset (com regularizacao): 0.6928744873248568
+J total do dataset (com regularizacao): 0.6956469540790164
+J total do dataset (com regularizacao): 0.69303028383656
+J total do dataset (com regularizacao): 0.693092403650371
+J total do dataset (com regularizacao): 0.6928479060215671
+J total do dataset (com regularizacao): 0.6696821995083801
+Fold: 8
+J total do dataset (com regularizacao): 0.7474674524196429
+J total do dataset (com regularizacao): 0.6928337952246334
+J total do dataset (com regularizacao): 0.6955706469088162
+J total do dataset (com regularizacao): 0.6929623793361306
+J total do dataset (com regularizacao): 0.6930323153798966
+J total do dataset (com regularizacao): 0.6927955668320335
+J total do dataset (com regularizacao): 0.6696914370767484
+Fold: 9
+J total do dataset (com regularizacao): 0.7479688934804182
+J total do dataset (com regularizacao): 0.6927974299045274
+J total do dataset (com regularizacao): 0.6955441727956876
+J total do dataset (com regularizacao): 0.6929156280663443
+J total do dataset (com regularizacao): 0.6929905394724662
+J total do dataset (com regularizacao): 0.692756984395583
+J total do dataset (com regularizacao): 0.6696615521421472
+outputs esperados: [[0.]]
+outputs previstos: [[0.31907115]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31907569]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31907307]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31907298]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31907965]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31908178]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31906074]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31907546]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31908061]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31907505]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31909365]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31907192]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31908985]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907951]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907087]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31908769]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31908064]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31908618]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31909975]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31910236]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31908552]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31910354]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906753]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907596]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31909851]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907137]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190732]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190919]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31908024]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907349]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31909152]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31909977]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3191029]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190796]]
+J final: 0.8774548588230044
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484066194014388
+J total do dataset (com regularizacao): 0.6927700070703471
+J total do dataset (com regularizacao): 0.6955274292039638
+J total do dataset (com regularizacao): 0.6928794906607963
+J total do dataset (com regularizacao): 0.6929561399177949
+J total do dataset (com regularizacao): 0.6927303657769389
+J total do dataset (com regularizacao): 0.6599227792391027
+Fold: 1
+J total do dataset (com regularizacao): 0.802606033276903
+J total do dataset (com regularizacao): 0.6927910921893936
+J total do dataset (com regularizacao): 0.6983053385739444
+J total do dataset (com regularizacao): 0.6932022035640502
+J total do dataset (com regularizacao): 0.6933216280913298
+J total do dataset (com regularizacao): 0.6928706683552386
+J total do dataset (com regularizacao): 0.6570150635156345
+Fold: 2
+J total do dataset (com regularizacao): 0.8023774291625665
+J total do dataset (com regularizacao): 0.6928282431495427
+J total do dataset (com regularizacao): 0.6984292514383001
+J total do dataset (com regularizacao): 0.6932923293563723
+J total do dataset (com regularizacao): 0.69339476542255
+J total do dataset (com regularizacao): 0.6929296398070672
+J total do dataset (com regularizacao): 0.6568507500418165
+Fold: 3
+J total do dataset (com regularizacao): 0.8013855331961172
+J total do dataset (com regularizacao): 0.6928698696498921
+J total do dataset (com regularizacao): 0.698445350092502
+J total do dataset (com regularizacao): 0.6933491669536163
+J total do dataset (com regularizacao): 0.6934428018671357
+J total do dataset (com regularizacao): 0.6929743923090187
+J total do dataset (com regularizacao): 0.6568355899722511
+Fold: 4
+J total do dataset (com regularizacao): 0.8005598186438764
+J total do dataset (com regularizacao): 0.692905260586572
+J total do dataset (com regularizacao): 0.698456496635564
+J total do dataset (com regularizacao): 0.6933947444848276
+J total do dataset (com regularizacao): 0.6934815960256008
+J total do dataset (com regularizacao): 0.6930110376000094
+J total do dataset (com regularizacao): 0.6568331349991884
+Fold: 5
+J total do dataset (com regularizacao): 0.7999068202467003
+J total do dataset (com regularizacao): 0.6929345498963461
+J total do dataset (com regularizacao): 0.6984680315736694
+J total do dataset (com regularizacao): 0.6934287610928188
+J total do dataset (com regularizacao): 0.693516434937388
+J total do dataset (com regularizacao): 0.6930387425073263
+J total do dataset (com regularizacao): 0.6625459836933817
+Fold: 6
+J total do dataset (com regularizacao): 0.769843066358523
+J total do dataset (com regularizacao): 0.6929164185691852
+J total do dataset (com regularizacao): 0.6969010770094671
+J total do dataset (com regularizacao): 0.6932210138081155
+J total do dataset (com regularizacao): 0.6932959215546957
+J total do dataset (com regularizacao): 0.6929512225405192
+J total do dataset (com regularizacao): 0.6687132928307382
+Fold: 7
+J total do dataset (com regularizacao): 0.7473061858640291
+J total do dataset (com regularizacao): 0.6928681424522265
+J total do dataset (com regularizacao): 0.6956445142237372
+J total do dataset (com regularizacao): 0.6930239743080756
+J total do dataset (com regularizacao): 0.6930880670355454
+J total do dataset (com regularizacao): 0.6928470410959838
+J total do dataset (com regularizacao): 0.6696926822792972
+Fold: 8
+J total do dataset (com regularizacao): 0.7475080202820966
+J total do dataset (com regularizacao): 0.6928284107935674
+J total do dataset (com regularizacao): 0.6955684179143756
+J total do dataset (com regularizacao): 0.6929567966157609
+J total do dataset (com regularizacao): 0.6930288012670867
+J total do dataset (com regularizacao): 0.6927936344508745
+J total do dataset (com regularizacao): 0.6696968085995226
+Fold: 9
+J total do dataset (com regularizacao): 0.7480067183955944
+J total do dataset (com regularizacao): 0.692792714263211
+J total do dataset (com regularizacao): 0.6955423695435456
+J total do dataset (com regularizacao): 0.6929107075603148
+J total do dataset (com regularizacao): 0.6929874502333765
+J total do dataset (com regularizacao): 0.6927553201290928
+J total do dataset (com regularizacao): 0.6696643911469525
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190451]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902223]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902473]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904911]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902144]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190313]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903169]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190397]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31905424]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903218]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902886]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902339]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904332]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903758]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904913]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905012]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904504]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904863]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902755]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904601]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905078]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904065]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190505]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905004]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905149]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905033]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190279]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905015]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902734]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903614]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903997]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906033]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905011]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905167]]
+J final: 0.8775126927305728
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484416934632446
+J total do dataset (com regularizacao): 0.6927663760996474
+J total do dataset (com regularizacao): 0.6955213830730754
+J total do dataset (com regularizacao): 0.6928771092169281
+J total do dataset (com regularizacao): 0.6929542842739432
+J total do dataset (com regularizacao): 0.6927240491900951
+J total do dataset (com regularizacao): 0.659900910773941
+Fold: 1
+J total do dataset (com regularizacao): 0.8026743871704893
+J total do dataset (com regularizacao): 0.6927878336967142
+J total do dataset (com regularizacao): 0.69830053227327
+J total do dataset (com regularizacao): 0.6932013606945441
+J total do dataset (com regularizacao): 0.6933212504426878
+J total do dataset (com regularizacao): 0.6928641034047703
+J total do dataset (com regularizacao): 0.6569908238077098
+Fold: 2
+J total do dataset (com regularizacao): 0.8024234695534147
+J total do dataset (com regularizacao): 0.6928275317882848
+J total do dataset (com regularizacao): 0.6984236408734138
+J total do dataset (com regularizacao): 0.6932929408550014
+J total do dataset (com regularizacao): 0.6933957609282411
+J total do dataset (com regularizacao): 0.6929234307075358
+J total do dataset (com regularizacao): 0.6568242085811015
+Fold: 3
+J total do dataset (com regularizacao): 0.8014111096434582
+J total do dataset (com regularizacao): 0.6928674615037367
+J total do dataset (com regularizacao): 0.6984428536048928
+J total do dataset (com regularizacao): 0.6933512582630869
+J total do dataset (com regularizacao): 0.6934453775663538
+J total do dataset (com regularizacao): 0.6929686097124476
+J total do dataset (com regularizacao): 0.6568059753676893
+Fold: 4
+J total do dataset (com regularizacao): 0.8005657575149584
+J total do dataset (com regularizacao): 0.6929038144364887
+J total do dataset (com regularizacao): 0.6984628922282198
+J total do dataset (com regularizacao): 0.6933970459911741
+J total do dataset (com regularizacao): 0.6934850488371801
+J total do dataset (com regularizacao): 0.693005314427127
+J total do dataset (com regularizacao): 0.6568040612892873
+Fold: 5
+J total do dataset (com regularizacao): 0.7998988936417835
+J total do dataset (com regularizacao): 0.6929336846605473
+J total do dataset (com regularizacao): 0.6984723473212411
+J total do dataset (com regularizacao): 0.6934325181097157
+J total do dataset (com regularizacao): 0.6935177328004654
+J total do dataset (com regularizacao): 0.6930349607707461
+J total do dataset (com regularizacao): 0.662523932775768
+Fold: 6
+J total do dataset (com regularizacao): 0.7698211278180632
+J total do dataset (com regularizacao): 0.6929162036092125
+J total do dataset (com regularizacao): 0.6969045805011342
+J total do dataset (com regularizacao): 0.6932253712528773
+J total do dataset (com regularizacao): 0.6932982327686832
+J total do dataset (com regularizacao): 0.6929468424056423
+J total do dataset (com regularizacao): 0.6686945688635504
+Fold: 7
+J total do dataset (com regularizacao): 0.7472856722238079
+J total do dataset (com regularizacao): 0.6928683734352653
+J total do dataset (com regularizacao): 0.6956476323046514
+J total do dataset (com regularizacao): 0.6930279588888243
+J total do dataset (com regularizacao): 0.6930926416557158
+J total do dataset (com regularizacao): 0.6928435863848418
+J total do dataset (com regularizacao): 0.669678350827629
+Fold: 8
+J total do dataset (com regularizacao): 0.7474856897251927
+J total do dataset (com regularizacao): 0.6928287570463332
+J total do dataset (com regularizacao): 0.6955711278035243
+J total do dataset (com regularizacao): 0.692960503271233
+J total do dataset (com regularizacao): 0.6930323209485413
+J total do dataset (com regularizacao): 0.6927953067027895
+J total do dataset (com regularizacao): 0.669699801567421
+Fold: 9
+J total do dataset (com regularizacao): 0.7479832651013577
+J total do dataset (com regularizacao): 0.6927931175961451
+J total do dataset (com regularizacao): 0.6955444090172501
+J total do dataset (com regularizacao): 0.6929139871899962
+J total do dataset (com regularizacao): 0.692990534220751
+J total do dataset (com regularizacao): 0.6927564260839797
+J total do dataset (com regularizacao): 0.6696667202061478
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904229]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904527]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904704]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31905142]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904182]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904648]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31906115]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31906035]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904659]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903899]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903787]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904959]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904706]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907191]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906977]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907386]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906746]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905409]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907387]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906087]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905087]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907675]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904613]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907421]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905127]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190684]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906876]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907064]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906001]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905216]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904791]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906275]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907384]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906796]]
+J final: 0.8774841450162105
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.748422240262891
+J total do dataset (com regularizacao): 0.6927654205562904
+J total do dataset (com regularizacao): 0.6955272121200173
+J total do dataset (com regularizacao): 0.6928779598847751
+J total do dataset (com regularizacao): 0.6929561008155032
+J total do dataset (com regularizacao): 0.69272597681089
+J total do dataset (com regularizacao): 0.6599074178123551
+Fold: 1
+J total do dataset (com regularizacao): 0.802631625434832
+J total do dataset (com regularizacao): 0.6927858580756374
+J total do dataset (com regularizacao): 0.6983073400416108
+J total do dataset (com regularizacao): 0.6932015476179254
+J total do dataset (com regularizacao): 0.6933228450118402
+J total do dataset (com regularizacao): 0.6928661301657684
+J total do dataset (com regularizacao): 0.6569988547709925
+Fold: 2
+J total do dataset (com regularizacao): 0.8023881164490385
+J total do dataset (com regularizacao): 0.6928304567870649
+J total do dataset (com regularizacao): 0.6984293074707886
+J total do dataset (com regularizacao): 0.6932920388271483
+J total do dataset (com regularizacao): 0.69339638348629
+J total do dataset (com regularizacao): 0.6929250422155018
+J total do dataset (com regularizacao): 0.6568352630986218
+Fold: 3
+J total do dataset (com regularizacao): 0.8013869138614291
+J total do dataset (com regularizacao): 0.6928726772644562
+J total do dataset (com regularizacao): 0.6984521687603645
+J total do dataset (com regularizacao): 0.6933487908025681
+J total do dataset (com regularizacao): 0.6934445567233933
+J total do dataset (com regularizacao): 0.6929695035391528
+J total do dataset (com regularizacao): 0.6568207268460136
+Fold: 4
+J total do dataset (com regularizacao): 0.8005573330154868
+J total do dataset (com regularizacao): 0.6929084343344569
+J total do dataset (com regularizacao): 0.6984610706499875
+J total do dataset (com regularizacao): 0.6933947699287442
+J total do dataset (com regularizacao): 0.6934837999045356
+J total do dataset (com regularizacao): 0.6930060085508999
+J total do dataset (com regularizacao): 0.6568168625436348
+Fold: 5
+J total do dataset (com regularizacao): 0.7999003679338104
+J total do dataset (com regularizacao): 0.6929381593235452
+J total do dataset (com regularizacao): 0.6984716523900178
+J total do dataset (com regularizacao): 0.6934310997558307
+J total do dataset (com regularizacao): 0.6935158103620601
+J total do dataset (com regularizacao): 0.6930368398830484
+J total do dataset (com regularizacao): 0.6625430691532644
+Fold: 6
+J total do dataset (com regularizacao): 0.769828931558025
+J total do dataset (com regularizacao): 0.6929195191331596
+J total do dataset (com regularizacao): 0.6969033136060611
+J total do dataset (com regularizacao): 0.6932186448821892
+J total do dataset (com regularizacao): 0.6932971593699551
+J total do dataset (com regularizacao): 0.6929499870893502
+J total do dataset (com regularizacao): 0.66870905846734
+Fold: 7
+J total do dataset (com regularizacao): 0.747298765909775
+J total do dataset (com regularizacao): 0.6928706938896356
+J total do dataset (com regularizacao): 0.6956466749393047
+J total do dataset (com regularizacao): 0.6930223516237434
+J total do dataset (com regularizacao): 0.6930893778160023
+J total do dataset (com regularizacao): 0.6928461987802813
+J total do dataset (com regularizacao): 0.6696886195154109
+Fold: 8
+J total do dataset (com regularizacao): 0.7475004333734155
+J total do dataset (com regularizacao): 0.6928307577467736
+J total do dataset (com regularizacao): 0.695570359779013
+J total do dataset (com regularizacao): 0.6929555099450102
+J total do dataset (com regularizacao): 0.6930298139687797
+J total do dataset (com regularizacao): 0.692792773380154
+J total do dataset (com regularizacao): 0.6696929414458228
+Fold: 9
+J total do dataset (com regularizacao): 0.7479988318576417
+J total do dataset (com regularizacao): 0.6927949364981595
+J total do dataset (com regularizacao): 0.6955441766861817
+J total do dataset (com regularizacao): 0.6929096921706795
+J total do dataset (com regularizacao): 0.6929884764640248
+J total do dataset (com regularizacao): 0.6927544563772078
+J total do dataset (com regularizacao): 0.6696600870795903
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903319]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903008]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902818]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902981]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903818]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903885]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31905254]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902378]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902794]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902781]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903019]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901364]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904284]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905874]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905232]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903083]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903344]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903297]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904701]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905593]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905467]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904393]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904765]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905496]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903754]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902787]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904753]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190593]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905486]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904466]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905713]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190506]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904636]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190563]]
+J final: 0.8775072921625195
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484340218463138
+J total do dataset (com regularizacao): 0.6927675008202535
+J total do dataset (com regularizacao): 0.6955248761354308
+J total do dataset (com regularizacao): 0.6928772474997663
+J total do dataset (com regularizacao): 0.6929549732389865
+J total do dataset (com regularizacao): 0.6927249691024981
+J total do dataset (com regularizacao): 0.6599061533883815
+Fold: 1
+J total do dataset (com regularizacao): 0.8026660098924029
+J total do dataset (com regularizacao): 0.6927884533294448
+J total do dataset (com regularizacao): 0.6983037015271992
+J total do dataset (com regularizacao): 0.6932001643730878
+J total do dataset (com regularizacao): 0.6933211191285928
+J total do dataset (com regularizacao): 0.6928646008683713
+J total do dataset (com regularizacao): 0.6569987527286716
+Fold: 2
+J total do dataset (com regularizacao): 0.80242895483459
+J total do dataset (com regularizacao): 0.6928261570749894
+J total do dataset (com regularizacao): 0.6984274378027546
+J total do dataset (com regularizacao): 0.6932906222056314
+J total do dataset (com regularizacao): 0.6933947279687761
+J total do dataset (com regularizacao): 0.6929234187171641
+J total do dataset (com regularizacao): 0.6568334759153072
+Fold: 3
+J total do dataset (com regularizacao): 0.8014306954778809
+J total do dataset (com regularizacao): 0.6928672706597364
+J total do dataset (com regularizacao): 0.6984458522660657
+J total do dataset (com regularizacao): 0.6933476933804532
+J total do dataset (com regularizacao): 0.6934431532523574
+J total do dataset (com regularizacao): 0.692967978880683
+J total do dataset (com regularizacao): 0.6568174450314497
+Fold: 4
+J total do dataset (com regularizacao): 0.8006003976755963
+J total do dataset (com regularizacao): 0.6929028593407534
+J total do dataset (com regularizacao): 0.6984555082644811
+J total do dataset (com regularizacao): 0.6933936569057187
+J total do dataset (com regularizacao): 0.6934824188545992
+J total do dataset (com regularizacao): 0.6930044640369474
+J total do dataset (com regularizacao): 0.6568134533527412
+Fold: 5
+J total do dataset (com regularizacao): 0.7999434848020794
+J total do dataset (com regularizacao): 0.6929323894805061
+J total do dataset (com regularizacao): 0.6984664116820487
+J total do dataset (com regularizacao): 0.6934299439964524
+J total do dataset (com regularizacao): 0.6935163192472389
+J total do dataset (com regularizacao): 0.6930338079693126
+J total do dataset (com regularizacao): 0.66253646023479
+Fold: 6
+J total do dataset (com regularizacao): 0.769864448386248
+J total do dataset (com regularizacao): 0.6929145447442414
+J total do dataset (com regularizacao): 0.6968986896941888
+J total do dataset (com regularizacao): 0.6932223743651504
+J total do dataset (com regularizacao): 0.6932978352378004
+J total do dataset (com regularizacao): 0.6929464945981909
+J total do dataset (com regularizacao): 0.668707280090742
+Fold: 7
+J total do dataset (com regularizacao): 0.7473230557437758
+J total do dataset (com regularizacao): 0.6928664931479857
+J total do dataset (com regularizacao): 0.6956422622753904
+J total do dataset (com regularizacao): 0.6930248671224788
+J total do dataset (com regularizacao): 0.6930868663505527
+J total do dataset (com regularizacao): 0.6928432973693207
+J total do dataset (com regularizacao): 0.6696849960521823
+Fold: 8
+J total do dataset (com regularizacao): 0.7475253862515401
+J total do dataset (com regularizacao): 0.6928269426589443
+J total do dataset (com regularizacao): 0.6955666105904849
+J total do dataset (com regularizacao): 0.6929576030240089
+J total do dataset (com regularizacao): 0.69302750661349
+J total do dataset (com regularizacao): 0.6927915836733911
+J total do dataset (com regularizacao): 0.6696937001024976
+Fold: 9
+J total do dataset (com regularizacao): 0.748022641568306
+J total do dataset (com regularizacao): 0.6927913964951461
+J total do dataset (com regularizacao): 0.6955406537273313
+J total do dataset (com regularizacao): 0.6929113804073452
+J total do dataset (com regularizacao): 0.6929862231585416
+J total do dataset (com regularizacao): 0.6927524268220896
+J total do dataset (com regularizacao): 0.6696593914236003
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901458]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899998]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902497]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901512]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190328]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901071]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900867]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901414]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902504]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901273]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901702]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900581]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903053]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901778]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901871]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903404]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902326]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903678]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903136]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901467]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903644]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901866]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190314]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902858]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190338]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902438]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901751]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903331]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901577]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903206]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903273]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903609]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903249]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190254]]
+J final: 0.8775370256138342
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484512405932325
+J total do dataset (com regularizacao): 0.692768455344525
+J total do dataset (com regularizacao): 0.695524167408505
+J total do dataset (com regularizacao): 0.6928740772446288
+J total do dataset (com regularizacao): 0.6929531369821104
+J total do dataset (com regularizacao): 0.6927239063410788
+J total do dataset (com regularizacao): 0.6599045477438079
+Fold: 1
+J total do dataset (com regularizacao): 0.8027056342698772
+J total do dataset (com regularizacao): 0.6927902198646415
+J total do dataset (com regularizacao): 0.6983048961643484
+J total do dataset (com regularizacao): 0.6931964862070891
+J total do dataset (com regularizacao): 0.6933190413261295
+J total do dataset (com regularizacao): 0.6928636683686242
+J total do dataset (com regularizacao): 0.6569966007161552
+Fold: 2
+J total do dataset (com regularizacao): 0.8024715582614212
+J total do dataset (com regularizacao): 0.6928270239356776
+J total do dataset (com regularizacao): 0.6984284912174535
+J total do dataset (com regularizacao): 0.6932866599213516
+J total do dataset (com regularizacao): 0.6933923341050264
+J total do dataset (com regularizacao): 0.6929225426556236
+J total do dataset (com regularizacao): 0.6568313912574838
+Fold: 3
+J total do dataset (com regularizacao): 0.8014750495607059
+J total do dataset (com regularizacao): 0.6928702750560582
+J total do dataset (com regularizacao): 0.6984485867358264
+J total do dataset (com regularizacao): 0.6933431494832637
+J total do dataset (com regularizacao): 0.6934402017309887
+J total do dataset (com regularizacao): 0.6929669906841699
+J total do dataset (com regularizacao): 0.6568162438416326
+Fold: 4
+J total do dataset (com regularizacao): 0.8006489451855825
+J total do dataset (com regularizacao): 0.6929058052931303
+J total do dataset (com regularizacao): 0.6984569507697036
+J total do dataset (com regularizacao): 0.6933888421691896
+J total do dataset (com regularizacao): 0.6934792094369697
+J total do dataset (com regularizacao): 0.693003467341279
+J total do dataset (com regularizacao): 0.6568116215144647
+Fold: 5
+J total do dataset (com regularizacao): 0.7999950690625326
+J total do dataset (com regularizacao): 0.6929353868178213
+J total do dataset (com regularizacao): 0.6984679313936148
+J total do dataset (com regularizacao): 0.6934269718407506
+J total do dataset (com regularizacao): 0.6935116543295663
+J total do dataset (com regularizacao): 0.6930331694608113
+J total do dataset (com regularizacao): 0.6625383998357207
+Fold: 6
+J total do dataset (com regularizacao): 0.7699004675248192
+J total do dataset (com regularizacao): 0.6929165296154213
+J total do dataset (com regularizacao): 0.696898899419627
+J total do dataset (com regularizacao): 0.6932165335478059
+J total do dataset (com regularizacao): 0.6932930488811415
+J total do dataset (com regularizacao): 0.6929453322472325
+J total do dataset (com regularizacao): 0.6687050436622884
+Fold: 7
+J total do dataset (com regularizacao): 0.7473484723246951
+J total do dataset (com regularizacao): 0.6928677114363289
+J total do dataset (com regularizacao): 0.6956420251516392
+J total do dataset (com regularizacao): 0.6930200511865676
+J total do dataset (com regularizacao): 0.6930840796283438
+J total do dataset (com regularizacao): 0.6928420559820547
+J total do dataset (com regularizacao): 0.6696836481176992
+Fold: 8
+J total do dataset (com regularizacao): 0.7475496305425369
+J total do dataset (com regularizacao): 0.6928279137571661
+J total do dataset (com regularizacao): 0.6955663316152344
+J total do dataset (com regularizacao): 0.6929532699947791
+J total do dataset (com regularizacao): 0.6930246399605994
+J total do dataset (com regularizacao): 0.692790151937219
+J total do dataset (com regularizacao): 0.6696914869677547
+Fold: 9
+J total do dataset (com regularizacao): 0.7480462691264603
+J total do dataset (com regularizacao): 0.692792215734518
+J total do dataset (com regularizacao): 0.6955404551028848
+J total do dataset (com regularizacao): 0.6929074624506891
+J total do dataset (com regularizacao): 0.6929835956555668
+J total do dataset (com regularizacao): 0.692751672288963
+J total do dataset (com regularizacao): 0.669658597543962
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899622]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898579]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898208]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899404]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898857]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31897815]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898874]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31897986]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899176]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900448]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900574]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31897961]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899209]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899617]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899534]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900142]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900028]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899574]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900276]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900001]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31898596]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899103]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31898959]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31898951]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899194]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899406]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31898306]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190016]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899523]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899173]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899231]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31898861]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899808]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899875]]
+J final: 0.877589617667171
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484716574412741
+J total do dataset (com regularizacao): 0.6927676546252131
+J total do dataset (com regularizacao): 0.695523781712897
+J total do dataset (com regularizacao): 0.6928741858493507
+J total do dataset (com regularizacao): 0.6929511542842556
+J total do dataset (com regularizacao): 0.6927238031053227
+J total do dataset (com regularizacao): 0.6599134173326259
+Fold: 1
+J total do dataset (com regularizacao): 0.8027268416732267
+J total do dataset (com regularizacao): 0.6927901618396585
+J total do dataset (com regularizacao): 0.6983040998253263
+J total do dataset (com regularizacao): 0.6931970587737623
+J total do dataset (com regularizacao): 0.6933168730427467
+J total do dataset (com regularizacao): 0.6928638119963062
+J total do dataset (com regularizacao): 0.6570077721595808
+Fold: 2
+J total do dataset (com regularizacao): 0.8024877675129334
+J total do dataset (com regularizacao): 0.692828874406858
+J total do dataset (com regularizacao): 0.6984272606438535
+J total do dataset (com regularizacao): 0.6932875047158347
+J total do dataset (com regularizacao): 0.6933902242294409
+J total do dataset (com regularizacao): 0.6929228107854936
+J total do dataset (com regularizacao): 0.6568432992654312
+Fold: 3
+J total do dataset (com regularizacao): 0.8014881562509859
+J total do dataset (com regularizacao): 0.6928715527626513
+J total do dataset (com regularizacao): 0.6984458764325943
+J total do dataset (com regularizacao): 0.6933445223692838
+J total do dataset (com regularizacao): 0.6934383878503777
+J total do dataset (com regularizacao): 0.6929674951995779
+J total do dataset (com regularizacao): 0.6568277266576155
+Fold: 4
+J total do dataset (com regularizacao): 0.8006575351588759
+J total do dataset (com regularizacao): 0.6929076838538965
+J total do dataset (com regularizacao): 0.6984571180951302
+J total do dataset (com regularizacao): 0.6933902545902325
+J total do dataset (com regularizacao): 0.6934773751151991
+J total do dataset (com regularizacao): 0.6930040526304759
+J total do dataset (com regularizacao): 0.6568247606438976
+Fold: 5
+J total do dataset (com regularizacao): 0.8000003033113017
+J total do dataset (com regularizacao): 0.6929377382009974
+J total do dataset (com regularizacao): 0.6984671586687018
+J total do dataset (com regularizacao): 0.6934264575964246
+J total do dataset (com regularizacao): 0.6935094106294296
+J total do dataset (com regularizacao): 0.6930331887630107
+J total do dataset (com regularizacao): 0.6625426158884965
+Fold: 6
+J total do dataset (com regularizacao): 0.7699020222830506
+J total do dataset (com regularizacao): 0.6929189409209286
+J total do dataset (com regularizacao): 0.6968984858990289
+J total do dataset (com regularizacao): 0.6932164108343959
+J total do dataset (com regularizacao): 0.693290216593848
+J total do dataset (com regularizacao): 0.6929460141694685
+J total do dataset (com regularizacao): 0.6687068114491364
+Fold: 7
+J total do dataset (com regularizacao): 0.7473472716601117
+J total do dataset (com regularizacao): 0.6928699277642838
+J total do dataset (com regularizacao): 0.6956418649664449
+J total do dataset (com regularizacao): 0.693020238897954
+J total do dataset (com regularizacao): 0.6930826131784837
+J total do dataset (com regularizacao): 0.6928427691024576
+J total do dataset (com regularizacao): 0.6696854644611542
+Fold: 8
+J total do dataset (com regularizacao): 0.7475462708186826
+J total do dataset (com regularizacao): 0.6928301315462893
+J total do dataset (com regularizacao): 0.695566253699602
+J total do dataset (com regularizacao): 0.6929536053186176
+J total do dataset (com regularizacao): 0.6930238898962412
+J total do dataset (com regularizacao): 0.6927905588071512
+J total do dataset (com regularizacao): 0.6696925894499361
+Fold: 9
+J total do dataset (com regularizacao): 0.7480412930196991
+J total do dataset (com regularizacao): 0.6927944348552434
+J total do dataset (com regularizacao): 0.6955404457600977
+J total do dataset (com regularizacao): 0.6929079001530941
+J total do dataset (com regularizacao): 0.692983109920858
+J total do dataset (com regularizacao): 0.6927523343627806
+J total do dataset (com regularizacao): 0.6696606331015268
+outputs esperados: [[0.]]
+outputs previstos: [[0.3189879]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3189928]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899003]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899408]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898572]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898733]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899037]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899444]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3189885]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899519]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900576]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899009]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900477]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900782]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900733]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3189936]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900359]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900342]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900564]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899406]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900298]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899032]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900595]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900272]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901232]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900316]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900031]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899151]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900226]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900127]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900527]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900293]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900834]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.319015]]
+J final: 0.8775733509720023
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484703383594572
+J total do dataset (com regularizacao): 0.6927637423683283
+J total do dataset (com regularizacao): 0.6955221537719135
+J total do dataset (com regularizacao): 0.6928721520380733
+J total do dataset (com regularizacao): 0.6929515323294891
+J total do dataset (com regularizacao): 0.6927229894418002
+J total do dataset (com regularizacao): 0.6599038368926147
+Fold: 1
+J total do dataset (com regularizacao): 0.8027182325455366
+J total do dataset (com regularizacao): 0.6927847588012807
+J total do dataset (com regularizacao): 0.6983021118219098
+J total do dataset (com regularizacao): 0.6931946431496635
+J total do dataset (com regularizacao): 0.6933179460382749
+J total do dataset (com regularizacao): 0.6928631090052365
+J total do dataset (com regularizacao): 0.6569975386070079
+Fold: 2
+J total do dataset (com regularizacao): 0.8024684123159049
+J total do dataset (com regularizacao): 0.6928275805747202
+J total do dataset (com regularizacao): 0.6984238905766548
+J total do dataset (com regularizacao): 0.6932848958277626
+J total do dataset (com regularizacao): 0.6933916763181975
+J total do dataset (com regularizacao): 0.6929222215659105
+J total do dataset (com regularizacao): 0.6568333089938426
+Fold: 3
+J total do dataset (com regularizacao): 0.8014608790788122
+J total do dataset (com regularizacao): 0.6928697067097332
+J total do dataset (com regularizacao): 0.6984428147833887
+J total do dataset (com regularizacao): 0.693341773865857
+J total do dataset (com regularizacao): 0.6934402768828194
+J total do dataset (com regularizacao): 0.692967064250211
+J total do dataset (com regularizacao): 0.6568175330517673
+Fold: 4
+J total do dataset (com regularizacao): 0.800623062369089
+J total do dataset (com regularizacao): 0.6929059449639583
+J total do dataset (com regularizacao): 0.698457537923522
+J total do dataset (com regularizacao): 0.69338694241658
+J total do dataset (com regularizacao): 0.6934794224900368
+J total do dataset (com regularizacao): 0.6930036154879685
+J total do dataset (com regularizacao): 0.6568151090925252
+Fold: 5
+J total do dataset (com regularizacao): 0.7999619846589642
+J total do dataset (com regularizacao): 0.692935848160725
+J total do dataset (com regularizacao): 0.6984653115298735
+J total do dataset (com regularizacao): 0.6934237143071738
+J total do dataset (com regularizacao): 0.6935112248032629
+J total do dataset (com regularizacao): 0.6930320529247277
+J total do dataset (com regularizacao): 0.6625302854099754
+Fold: 6
+J total do dataset (com regularizacao): 0.7698747473779435
+J total do dataset (com regularizacao): 0.6929176775453646
+J total do dataset (com regularizacao): 0.6968979086510867
+J total do dataset (com regularizacao): 0.6932190227645388
+J total do dataset (com regularizacao): 0.6932919714016983
+J total do dataset (com regularizacao): 0.6929464336561262
+J total do dataset (com regularizacao): 0.6687054497030709
+Fold: 7
+J total do dataset (com regularizacao): 0.7473277756047831
+J total do dataset (com regularizacao): 0.6928689756427612
+J total do dataset (com regularizacao): 0.6956416087868346
+J total do dataset (com regularizacao): 0.6930223010055959
+J total do dataset (com regularizacao): 0.6930836310175723
+J total do dataset (com regularizacao): 0.6928431374738397
+J total do dataset (com regularizacao): 0.6696843722494102
+Fold: 8
+J total do dataset (com regularizacao): 0.7475285989498187
+J total do dataset (com regularizacao): 0.6928291909025526
+J total do dataset (com regularizacao): 0.6955659968832324
+J total do dataset (com regularizacao): 0.6929554017380218
+J total do dataset (com regularizacao): 0.6930247699699194
+J total do dataset (com regularizacao): 0.6927911584184909
+J total do dataset (com regularizacao): 0.6696921101376321
+Fold: 9
+J total do dataset (com regularizacao): 0.74802525823065
+J total do dataset (com regularizacao): 0.6927934624904563
+J total do dataset (com regularizacao): 0.6955401456999208
+J total do dataset (com regularizacao): 0.6929094735699282
+J total do dataset (com regularizacao): 0.6929838166098845
+J total do dataset (com regularizacao): 0.6927533423923399
+J total do dataset (com regularizacao): 0.6696597992219556
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902127]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900119]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190029]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902261]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900023]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900904]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898757]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900874]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900447]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.319004]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899698]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899686]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900516]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900111]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190191]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902059]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900427]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902311]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900525]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901763]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901114]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901689]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190098]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901429]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902048]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902174]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901837]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190073]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902249]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190195]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901989]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902063]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900421]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901696]]
+J final: 0.8775577421280878
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.748457213177303
+J total do dataset (com regularizacao): 0.6927650827028596
+J total do dataset (com regularizacao): 0.6955233386695983
+J total do dataset (com regularizacao): 0.6928761751250659
+J total do dataset (com regularizacao): 0.6929522968282698
+J total do dataset (com regularizacao): 0.6927237543183773
+J total do dataset (com regularizacao): 0.6599031751656869
+Fold: 1
+J total do dataset (com regularizacao): 0.802699577962494
+J total do dataset (com regularizacao): 0.6927862139222227
+J total do dataset (com regularizacao): 0.6983032282246122
+J total do dataset (com regularizacao): 0.6931998700179132
+J total do dataset (com regularizacao): 0.6933185722350803
+J total do dataset (com regularizacao): 0.6928638547668645
+J total do dataset (com regularizacao): 0.6569953448453326
+Fold: 2
+J total do dataset (com regularizacao): 0.8024496207042194
+J total do dataset (com regularizacao): 0.6928262771038959
+J total do dataset (com regularizacao): 0.6984264286862967
+J total do dataset (com regularizacao): 0.6932910882690273
+J total do dataset (com regularizacao): 0.693392614658851
+J total do dataset (com regularizacao): 0.692923194768609
+J total do dataset (com regularizacao): 0.656829755213311
+Fold: 3
+J total do dataset (com regularizacao): 0.8014397564242058
+J total do dataset (com regularizacao): 0.6928704056571369
+J total do dataset (com regularizacao): 0.6984457179442692
+J total do dataset (com regularizacao): 0.6933486523462619
+J total do dataset (com regularizacao): 0.6934413316588662
+J total do dataset (com regularizacao): 0.6929681594904827
+J total do dataset (com regularizacao): 0.6568139669844232
+Fold: 4
+J total do dataset (com regularizacao): 0.800600772439379
+J total do dataset (com regularizacao): 0.6929064113896445
+J total do dataset (com regularizacao): 0.69845798483408
+J total do dataset (com regularizacao): 0.6933948515985294
+J total do dataset (com regularizacao): 0.6934809115875543
+J total do dataset (com regularizacao): 0.6930049974062605
+J total do dataset (com regularizacao): 0.6568101483071491
+Fold: 5
+J total do dataset (com regularizacao): 0.7999370103248179
+J total do dataset (com regularizacao): 0.692936179752592
+J total do dataset (com regularizacao): 0.6984695962287312
+J total do dataset (com regularizacao): 0.6934281719056411
+J total do dataset (com regularizacao): 0.6935154542938833
+J total do dataset (com regularizacao): 0.6930335683746249
+J total do dataset (com regularizacao): 0.6625243229360764
+Fold: 6
+J total do dataset (com regularizacao): 0.7698557849769972
+J total do dataset (com regularizacao): 0.6929180442830888
+J total do dataset (com regularizacao): 0.696902350231381
+J total do dataset (com regularizacao): 0.6932201416442294
+J total do dataset (com regularizacao): 0.6932963852597802
+J total do dataset (com regularizacao): 0.6929478281065226
+J total do dataset (com regularizacao): 0.6686974877390887
+Fold: 7
+J total do dataset (com regularizacao): 0.7473126703376943
+J total do dataset (com regularizacao): 0.6928695591454648
+J total do dataset (com regularizacao): 0.6956457632187619
+J total do dataset (com regularizacao): 0.6930236463774738
+J total do dataset (com regularizacao): 0.6930839894096876
+J total do dataset (com regularizacao): 0.6928451437372644
+J total do dataset (com regularizacao): 0.6696747120917429
+Fold: 8
+J total do dataset (com regularizacao): 0.7475125509455955
+J total do dataset (com regularizacao): 0.6928299218177699
+J total do dataset (com regularizacao): 0.6955701063841632
+J total do dataset (com regularizacao): 0.6929569956838423
+J total do dataset (com regularizacao): 0.6930254077763052
+J total do dataset (com regularizacao): 0.6927935028071791
+J total do dataset (com regularizacao): 0.669683961410939
+Fold: 9
+J total do dataset (com regularizacao): 0.7480067660325342
+J total do dataset (com regularizacao): 0.6927943265476879
+J total do dataset (com regularizacao): 0.6955440520326631
+J total do dataset (com regularizacao): 0.6929112279409061
+J total do dataset (com regularizacao): 0.6929847293619541
+J total do dataset (com regularizacao): 0.692754973626628
+J total do dataset (com regularizacao): 0.6696568161478331
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904552]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904501]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904027]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190618]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904839]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903321]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903433]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31905954]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31905765]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31905047]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31905568]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31906763]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190777]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904128]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905274]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906172]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905899]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907013]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190368]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906065]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904151]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906996]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190388]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905912]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907147]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904467]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903613]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904334]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904656]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907166]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906676]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906767]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906399]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906979]]
+J final: 0.877497699944751
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.74843005944396
+J total do dataset (com regularizacao): 0.6927694549334211
+J total do dataset (com regularizacao): 0.6955228009077323
+J total do dataset (com regularizacao): 0.6928798449526343
+J total do dataset (com regularizacao): 0.6929520411666192
+J total do dataset (com regularizacao): 0.6927242998545702
+J total do dataset (com regularizacao): 0.6599026241511915
+Fold: 1
+J total do dataset (com regularizacao): 0.8026533133935946
+J total do dataset (com regularizacao): 0.692791274671241
+J total do dataset (com regularizacao): 0.6983012436689184
+J total do dataset (com regularizacao): 0.69320372232184
+J total do dataset (com regularizacao): 0.6933173130104296
+J total do dataset (com regularizacao): 0.6928638235867631
+J total do dataset (com regularizacao): 0.6569945627433277
+Fold: 2
+J total do dataset (com regularizacao): 0.8024168655204046
+J total do dataset (com regularizacao): 0.6928348730854892
+J total do dataset (com regularizacao): 0.698422980244666
+J total do dataset (com regularizacao): 0.6932940548689217
+J total do dataset (com regularizacao): 0.69339018287544
+J total do dataset (com regularizacao): 0.6929222950834786
+J total do dataset (com regularizacao): 0.6568303673140784
+Fold: 3
+J total do dataset (com regularizacao): 0.8014225023394755
+J total do dataset (com regularizacao): 0.692876474340198
+J total do dataset (com regularizacao): 0.698441380003731
+J total do dataset (com regularizacao): 0.6933510029112672
+J total do dataset (com regularizacao): 0.6934380235176545
+J total do dataset (com regularizacao): 0.692966510696514
+J total do dataset (com regularizacao): 0.6568143301173919
+Fold: 4
+J total do dataset (com regularizacao): 0.8005966546654704
+J total do dataset (com regularizacao): 0.6929122508247281
+J total do dataset (com regularizacao): 0.6984566240587168
+J total do dataset (com regularizacao): 0.6933961715333465
+J total do dataset (com regularizacao): 0.6934763514473513
+J total do dataset (com regularizacao): 0.6930024133934639
+J total do dataset (com regularizacao): 0.6568118880883862
+Fold: 5
+J total do dataset (com regularizacao): 0.7999467520606008
+J total do dataset (com regularizacao): 0.6929416314404991
+J total do dataset (com regularizacao): 0.6984670981179328
+J total do dataset (com regularizacao): 0.6934296760380676
+J total do dataset (com regularizacao): 0.6935074459438334
+J total do dataset (com regularizacao): 0.6930318556681723
+J total do dataset (com regularizacao): 0.662531838954366
+Fold: 6
+J total do dataset (com regularizacao): 0.7698690488303069
+J total do dataset (com regularizacao): 0.6929219795085167
+J total do dataset (com regularizacao): 0.6968991770070456
+J total do dataset (com regularizacao): 0.6932210016858376
+J total do dataset (com regularizacao): 0.6932877442829537
+J total do dataset (com regularizacao): 0.6929432333273984
+J total do dataset (com regularizacao): 0.6686958068733325
+Fold: 7
+J total do dataset (com regularizacao): 0.7473284679055727
+J total do dataset (com regularizacao): 0.6928721760200761
+J total do dataset (com regularizacao): 0.6956429145328682
+J total do dataset (com regularizacao): 0.6930239074160119
+J total do dataset (com regularizacao): 0.6930808109236254
+J total do dataset (com regularizacao): 0.6928403814059481
+J total do dataset (com regularizacao): 0.6696753798312375
+Fold: 8
+J total do dataset (com regularizacao): 0.7475299620339103
+J total do dataset (com regularizacao): 0.6928319062570096
+J total do dataset (com regularizacao): 0.6955670882677069
+J total do dataset (com regularizacao): 0.6929567398658796
+J total do dataset (com regularizacao): 0.6930222691572792
+J total do dataset (com regularizacao): 0.6927907575281649
+J total do dataset (com regularizacao): 0.6696914063060199
+Fold: 9
+J total do dataset (com regularizacao): 0.7480266568694999
+J total do dataset (com regularizacao): 0.692795778881123
+J total do dataset (com regularizacao): 0.6955408788418121
+J total do dataset (com regularizacao): 0.6929104988825391
+J total do dataset (com regularizacao): 0.692981432126631
+J total do dataset (com regularizacao): 0.6927530347148904
+J total do dataset (com regularizacao): 0.6696610309811362
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899817]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902045]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190207]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899509]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900753]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899432]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899822]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900195]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900487]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898594]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899541]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900374]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902377]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902365]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190011]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902068]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901408]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901508]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901761]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902428]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902841]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902369]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902099]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902239]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900755]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901486]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901553]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900416]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901929]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901914]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901699]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902251]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901801]]
+J final: 0.8775514627476932
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484638474297143
+J total do dataset (com regularizacao): 0.6927621561101984
+J total do dataset (com regularizacao): 0.695526931424118
+J total do dataset (com regularizacao): 0.6928742414476224
+J total do dataset (com regularizacao): 0.6929513270678355
+J total do dataset (com regularizacao): 0.6927239636206214
+J total do dataset (com regularizacao): 0.6599076016382635
+Fold: 1
+J total do dataset (com regularizacao): 0.8027040370373809
+J total do dataset (com regularizacao): 0.6927820282532173
+J total do dataset (com regularizacao): 0.6983087609857472
+J total do dataset (com regularizacao): 0.6931974386764913
+J total do dataset (com regularizacao): 0.6933173343682719
+J total do dataset (com regularizacao): 0.6928641392733091
+J total do dataset (com regularizacao): 0.6570003865544556
+Fold: 2
+J total do dataset (com regularizacao): 0.8024572392188698
+J total do dataset (com regularizacao): 0.6928245428527375
+J total do dataset (com regularizacao): 0.6984311984375692
+J total do dataset (com regularizacao): 0.6932880515157024
+J total do dataset (com regularizacao): 0.6933906842988374
+J total do dataset (com regularizacao): 0.6929231734710861
+J total do dataset (com regularizacao): 0.6568364818046409
+Fold: 3
+J total do dataset (com regularizacao): 0.8014522474284586
+J total do dataset (com regularizacao): 0.6928642732773929
+J total do dataset (com regularizacao): 0.6984522942245166
+J total do dataset (com regularizacao): 0.6933453077514004
+J total do dataset (com regularizacao): 0.6934390212961784
+J total do dataset (com regularizacao): 0.6929679876932031
+J total do dataset (com regularizacao): 0.6568208133885706
+Fold: 4
+J total do dataset (com regularizacao): 0.8006162363676343
+J total do dataset (com regularizacao): 0.6928997836831214
+J total do dataset (com regularizacao): 0.698457889019879
+J total do dataset (com regularizacao): 0.6933920500328626
+J total do dataset (com regularizacao): 0.6934785807148351
+J total do dataset (com regularizacao): 0.6930050245443176
+J total do dataset (com regularizacao): 0.6568155131864343
+Fold: 5
+J total do dataset (com regularizacao): 0.7999507816458695
+J total do dataset (com regularizacao): 0.6929293394365906
+J total do dataset (com regularizacao): 0.6984684888022384
+J total do dataset (com regularizacao): 0.6934276884207176
+J total do dataset (com regularizacao): 0.6935127371170404
+J total do dataset (com regularizacao): 0.6930356947566138
+J total do dataset (com regularizacao): 0.6625412532782065
+Fold: 6
+J total do dataset (com regularizacao): 0.7698562324532582
+J total do dataset (com regularizacao): 0.6929120492770162
+J total do dataset (com regularizacao): 0.6969000965879432
+J total do dataset (com regularizacao): 0.6932205186944888
+J total do dataset (com regularizacao): 0.6932958343947558
+J total do dataset (com regularizacao): 0.6929470102578078
+J total do dataset (com regularizacao): 0.6687074141579135
+Fold: 7
+J total do dataset (com regularizacao): 0.7473154062911149
+J total do dataset (com regularizacao): 0.6928646496322373
+J total do dataset (com regularizacao): 0.6956438746009721
+J total do dataset (com regularizacao): 0.6930237080094889
+J total do dataset (com regularizacao): 0.6930857013375713
+J total do dataset (com regularizacao): 0.6928439404857796
+J total do dataset (com regularizacao): 0.6696849365167215
+Fold: 8
+J total do dataset (com regularizacao): 0.7475165530506527
+J total do dataset (com regularizacao): 0.6928254345040803
+J total do dataset (com regularizacao): 0.695568186646681
+J total do dataset (com regularizacao): 0.6929568018311703
+J total do dataset (com regularizacao): 0.6930265432564636
+J total do dataset (com regularizacao): 0.6927938614459627
+J total do dataset (com regularizacao): 0.6696996538051289
+Fold: 9
+J total do dataset (com regularizacao): 0.7480124595221319
+J total do dataset (com regularizacao): 0.6927901502311057
+J total do dataset (com regularizacao): 0.695542039977434
+J total do dataset (com regularizacao): 0.6929107723369397
+J total do dataset (com regularizacao): 0.6929854791399938
+J total do dataset (com regularizacao): 0.6927553314223852
+J total do dataset (com regularizacao): 0.6696679598535421
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902561]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901655]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902903]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902463]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902535]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904507]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903336]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901133]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904542]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901614]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902282]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902138]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905126]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904353]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904646]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904174]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904347]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902307]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903945]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.319029]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903705]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904084]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905473]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190475]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904351]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903651]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904799]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903824]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902473]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903377]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904245]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902838]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902854]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904659]]
+J final: 0.8775185434841951
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484463897347324
+J total do dataset (com regularizacao): 0.6927675991435619
+J total do dataset (com regularizacao): 0.695523865348035
+J total do dataset (com regularizacao): 0.6928761757039554
+J total do dataset (com regularizacao): 0.6929525307315347
+J total do dataset (com regularizacao): 0.6927232456028733
+J total do dataset (com regularizacao): 0.6599074813823754
+Fold: 1
+J total do dataset (com regularizacao): 0.8026839426023432
+J total do dataset (com regularizacao): 0.692789213666727
+J total do dataset (com regularizacao): 0.6983040934776853
+J total do dataset (com regularizacao): 0.6931994477594744
+J total do dataset (com regularizacao): 0.6933183949183479
+J total do dataset (com regularizacao): 0.6928628441926087
+J total do dataset (com regularizacao): 0.6569998928388413
+Fold: 2
+J total do dataset (com regularizacao): 0.8024412710269055
+J total do dataset (com regularizacao): 0.6928339981985903
+J total do dataset (com regularizacao): 0.6984262015438054
+J total do dataset (com regularizacao): 0.6932897753287789
+J total do dataset (com regularizacao): 0.6933915844566829
+J total do dataset (com regularizacao): 0.6929215201878332
+J total do dataset (com regularizacao): 0.6568361995102445
+Fold: 3
+J total do dataset (com regularizacao): 0.8014412554192417
+J total do dataset (com regularizacao): 0.6928685592043972
+J total do dataset (com regularizacao): 0.698447901317042
+J total do dataset (com regularizacao): 0.6933471841678143
+J total do dataset (com regularizacao): 0.693440231458954
+J total do dataset (com regularizacao): 0.6929661796813905
+J total do dataset (com regularizacao): 0.6568190474310662
+Fold: 4
+J total do dataset (com regularizacao): 0.8006056411605543
+J total do dataset (com regularizacao): 0.6929045418508891
+J total do dataset (com regularizacao): 0.6984524316927744
+J total do dataset (com regularizacao): 0.6933940768970175
+J total do dataset (com regularizacao): 0.693480031775014
+J total do dataset (com regularizacao): 0.6930030112876355
+J total do dataset (com regularizacao): 0.6568133303384163
+Fold: 5
+J total do dataset (com regularizacao): 0.7999392490670795
+J total do dataset (com regularizacao): 0.6929347436753146
+J total do dataset (com regularizacao): 0.698461987530427
+J total do dataset (com regularizacao): 0.6934296802682667
+J total do dataset (com regularizacao): 0.693514671964037
+J total do dataset (com regularizacao): 0.6930315624882998
+J total do dataset (com regularizacao): 0.6625314787285752
+Fold: 6
+J total do dataset (com regularizacao): 0.7698500078608708
+J total do dataset (com regularizacao): 0.692916961574973
+J total do dataset (com regularizacao): 0.6968949576303342
+J total do dataset (com regularizacao): 0.6932181813144986
+J total do dataset (com regularizacao): 0.6932936856805998
+J total do dataset (com regularizacao): 0.6929459666170423
+J total do dataset (com regularizacao): 0.6687008519934763
+Fold: 7
+J total do dataset (com regularizacao): 0.7473027640002897
+J total do dataset (com regularizacao): 0.6928688450404631
+J total do dataset (com regularizacao): 0.695639443340546
+J total do dataset (com regularizacao): 0.6930219537067788
+J total do dataset (com regularizacao): 0.6930853973574703
+J total do dataset (com regularizacao): 0.6928430552827098
+J total do dataset (com regularizacao): 0.6696803682328039
+Fold: 8
+J total do dataset (com regularizacao): 0.7475026736125584
+J total do dataset (com regularizacao): 0.692829346893321
+J total do dataset (com regularizacao): 0.6955641281323496
+J total do dataset (com regularizacao): 0.692955308120786
+J total do dataset (com regularizacao): 0.6930271885916484
+J total do dataset (com regularizacao): 0.6927918180106775
+J total do dataset (com regularizacao): 0.6696922280698117
+Fold: 9
+J total do dataset (com regularizacao): 0.7479984893058432
+J total do dataset (com regularizacao): 0.6927938135314825
+J total do dataset (com regularizacao): 0.6955384245239428
+J total do dataset (com regularizacao): 0.6929095106019812
+J total do dataset (com regularizacao): 0.6929861924442663
+J total do dataset (com regularizacao): 0.6927534858494762
+J total do dataset (com regularizacao): 0.6696550560089741
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903435]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902682]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902386]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902193]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901282]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901673]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901885]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902165]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902094]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902209]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902156]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902128]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904778]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190209]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903166]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904498]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901899]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904588]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903922]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902527]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904182]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904244]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190255]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903576]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904812]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904299]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904402]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904787]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904681]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903888]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901991]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.319041]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902583]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902175]]
+J final: 0.8775243029550163
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484453240677483
+J total do dataset (com regularizacao): 0.6927658306772243
+J total do dataset (com regularizacao): 0.6955250116750563
+J total do dataset (com regularizacao): 0.6928758123307436
+J total do dataset (com regularizacao): 0.6929552991453758
+J total do dataset (com regularizacao): 0.6927253967891798
+J total do dataset (com regularizacao): 0.6599086888525463
+Fold: 1
+J total do dataset (com regularizacao): 0.8026640998975156
+J total do dataset (com regularizacao): 0.692787017896309
+J total do dataset (com regularizacao): 0.6983044416186134
+J total do dataset (com regularizacao): 0.6931990379248554
+J total do dataset (com regularizacao): 0.6933222521982231
+J total do dataset (com regularizacao): 0.6928656645763993
+J total do dataset (com regularizacao): 0.657001165945504
+Fold: 2
+J total do dataset (com regularizacao): 0.8024160146189024
+J total do dataset (com regularizacao): 0.692830402054872
+J total do dataset (com regularizacao): 0.698426626993892
+J total do dataset (com regularizacao): 0.6932895909229595
+J total do dataset (com regularizacao): 0.6933961640203294
+J total do dataset (com regularizacao): 0.6929247980454336
+J total do dataset (com regularizacao): 0.6568370957579718
+Fold: 3
+J total do dataset (com regularizacao): 0.801410123399996
+J total do dataset (com regularizacao): 0.6928751294996618
+J total do dataset (com regularizacao): 0.6984435949424853
+J total do dataset (com regularizacao): 0.6933467218653709
+J total do dataset (com regularizacao): 0.6934448802178326
+J total do dataset (com regularizacao): 0.6929696092146472
+J total do dataset (com regularizacao): 0.6568216945564955
+Fold: 4
+J total do dataset (com regularizacao): 0.8005745181396176
+J total do dataset (com regularizacao): 0.6929115460582721
+J total do dataset (com regularizacao): 0.69846221103442
+J total do dataset (com regularizacao): 0.6933916973105574
+J total do dataset (com regularizacao): 0.6934838376907704
+J total do dataset (com regularizacao): 0.693005958418827
+J total do dataset (com regularizacao): 0.6568206050648617
+Fold: 5
+J total do dataset (com regularizacao): 0.7999175485426709
+J total do dataset (com regularizacao): 0.6929413607730732
+J total do dataset (com regularizacao): 0.6984701473168099
+J total do dataset (com regularizacao): 0.6934288507266172
+J total do dataset (com regularizacao): 0.6935168735387317
+J total do dataset (com regularizacao): 0.6930351768391337
+J total do dataset (com regularizacao): 0.6625403337826975
+Fold: 6
+J total do dataset (com regularizacao): 0.7698436503529279
+J total do dataset (com regularizacao): 0.6929221646331075
+J total do dataset (com regularizacao): 0.6969023256939887
+J total do dataset (com regularizacao): 0.6932216920183842
+J total do dataset (com regularizacao): 0.6932952392987877
+J total do dataset (com regularizacao): 0.6929485999338941
+J total do dataset (com regularizacao): 0.6687084302859397
+Fold: 7
+J total do dataset (com regularizacao): 0.7473091206464223
+J total do dataset (com regularizacao): 0.6928725736225656
+J total do dataset (com regularizacao): 0.6956457640828771
+J total do dataset (com regularizacao): 0.6930246512636369
+J total do dataset (com regularizacao): 0.6930871068122956
+J total do dataset (com regularizacao): 0.6928450151344145
+J total do dataset (com regularizacao): 0.6696876193669045
+Fold: 8
+J total do dataset (com regularizacao): 0.7475108035317095
+J total do dataset (com regularizacao): 0.6928323629109752
+J total do dataset (com regularizacao): 0.6955696282978474
+J total do dataset (com regularizacao): 0.6929574907100552
+J total do dataset (com regularizacao): 0.6930276019863042
+J total do dataset (com regularizacao): 0.6927934121308538
+J total do dataset (com regularizacao): 0.6696974074730163
+Fold: 9
+J total do dataset (com regularizacao): 0.7480085314590423
+J total do dataset (com regularizacao): 0.6927963197543247
+J total do dataset (com regularizacao): 0.6955433660705976
+J total do dataset (com regularizacao): 0.6929113475028598
+J total do dataset (com regularizacao): 0.6929863714965485
+J total do dataset (com regularizacao): 0.692753836466069
+J total do dataset (com regularizacao): 0.6696603786269951
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903065]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901918]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901399]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903645]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901917]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901556]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903606]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902089]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902489]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901842]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903775]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901662]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902607]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904023]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903786]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903627]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.319016]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902705]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903344]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190319]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903989]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901619]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901304]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903414]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903318]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903597]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901979]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190422]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903191]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902694]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904145]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904197]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902822]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904084]]
+J final: 0.8775345977771389
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484421899433163
+J total do dataset (com regularizacao): 0.6927661554757871
+J total do dataset (com regularizacao): 0.6955238075668948
+J total do dataset (com regularizacao): 0.6928765078456216
+J total do dataset (com regularizacao): 0.6929548622906361
+J total do dataset (com regularizacao): 0.6927257393844299
+J total do dataset (com regularizacao): 0.6599096546540295
+Fold: 1
+J total do dataset (com regularizacao): 0.8026737407920841
+J total do dataset (com regularizacao): 0.6927872097657678
+J total do dataset (com regularizacao): 0.6983025101612477
+J total do dataset (com regularizacao): 0.6931996884746865
+J total do dataset (com regularizacao): 0.6933212895796813
+J total do dataset (com regularizacao): 0.692865910496808
+J total do dataset (com regularizacao): 0.6570031559493469
+Fold: 2
+J total do dataset (com regularizacao): 0.8024308438789755
+J total do dataset (com regularizacao): 0.6928296326646856
+J total do dataset (com regularizacao): 0.698425150989531
+J total do dataset (com regularizacao): 0.6932901961176093
+J total do dataset (com regularizacao): 0.6933948838678167
+J total do dataset (com regularizacao): 0.6929249578283629
+J total do dataset (com regularizacao): 0.6568392371206141
+Fold: 3
+J total do dataset (com regularizacao): 0.8014297379687196
+J total do dataset (com regularizacao): 0.6928691028511188
+J total do dataset (com regularizacao): 0.6984442750074981
+J total do dataset (com regularizacao): 0.693347531610452
+J total do dataset (com regularizacao): 0.6934435558237756
+J total do dataset (com regularizacao): 0.6929698437392209
+J total do dataset (com regularizacao): 0.6568232284262618
+Fold: 4
+J total do dataset (com regularizacao): 0.8005960495949589
+J total do dataset (com regularizacao): 0.6929049871231596
+J total do dataset (com regularizacao): 0.6984556503378434
+J total do dataset (com regularizacao): 0.6933934600196475
+J total do dataset (com regularizacao): 0.6934829326625422
+J total do dataset (com regularizacao): 0.6930065869146186
+J total do dataset (com regularizacao): 0.6568202484263648
+Fold: 5
+J total do dataset (com regularizacao): 0.7999360953624993
+J total do dataset (com regularizacao): 0.6929347017414701
+J total do dataset (com regularizacao): 0.698467775072279
+J total do dataset (com regularizacao): 0.6934301918551377
+J total do dataset (com regularizacao): 0.693515263263789
+J total do dataset (com regularizacao): 0.6930344110268483
+J total do dataset (com regularizacao): 0.6625370434310671
+Fold: 6
+J total do dataset (com regularizacao): 0.7698528982383032
+J total do dataset (com regularizacao): 0.6929165679614262
+J total do dataset (com regularizacao): 0.6968997582400444
+J total do dataset (com regularizacao): 0.6932240981687888
+J total do dataset (com regularizacao): 0.6932956992447965
+J total do dataset (com regularizacao): 0.692946535765111
+J total do dataset (com regularizacao): 0.6687078226787725
+Fold: 7
+J total do dataset (com regularizacao): 0.7473116552636365
+J total do dataset (com regularizacao): 0.6928680889165373
+J total do dataset (com regularizacao): 0.6956430035802271
+J total do dataset (com regularizacao): 0.6930262342136818
+J total do dataset (com regularizacao): 0.6930866790868635
+J total do dataset (com regularizacao): 0.6928432402689773
+J total do dataset (com regularizacao): 0.669686908458995
+Fold: 8
+J total do dataset (com regularizacao): 0.7475147303216358
+J total do dataset (com regularizacao): 0.6928283000843496
+J total do dataset (com regularizacao): 0.6955671212404615
+J total do dataset (com regularizacao): 0.692958745491813
+J total do dataset (com regularizacao): 0.693027612952597
+J total do dataset (com regularizacao): 0.6927906583256959
+J total do dataset (com regularizacao): 0.6696931888927998
+Fold: 9
+J total do dataset (com regularizacao): 0.7480134798915856
+J total do dataset (com regularizacao): 0.6927925840718607
+J total do dataset (com regularizacao): 0.6955411216887709
+J total do dataset (com regularizacao): 0.6929123889970267
+J total do dataset (com regularizacao): 0.6929863035099595
+J total do dataset (com regularizacao): 0.6927529337872173
+J total do dataset (com regularizacao): 0.6696600668002007
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190031]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900798]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902312]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900222]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900429]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900867]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901188]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901159]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899596]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900797]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902458]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900585]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901757]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903148]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901717]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190331]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901564]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190351]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901852]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902723]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902674]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902032]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190257]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901522]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902443]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901083]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902778]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904205]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903108]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190276]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190203]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901424]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902949]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902738]]
+J final: 0.8775404362275853
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484523046135435
+J total do dataset (com regularizacao): 0.6927651231523207
+J total do dataset (com regularizacao): 0.6955253216527923
+J total do dataset (com regularizacao): 0.6928770376812695
+J total do dataset (com regularizacao): 0.6929522813674776
+J total do dataset (com regularizacao): 0.6927227652252212
+J total do dataset (com regularizacao): 0.6598984420244215
+Fold: 1
+J total do dataset (com regularizacao): 0.8026815671271503
+J total do dataset (com regularizacao): 0.6927864555403798
+J total do dataset (com regularizacao): 0.6983062921013095
+J total do dataset (com regularizacao): 0.6932013551060483
+J total do dataset (com regularizacao): 0.693318728784447
+J total do dataset (com regularizacao): 0.6928626421616751
+J total do dataset (com regularizacao): 0.6569886791653662
+Fold: 2
+J total do dataset (com regularizacao): 0.8024302370693933
+J total do dataset (com regularizacao): 0.692830681344852
+J total do dataset (com regularizacao): 0.6984285756392503
+J total do dataset (com regularizacao): 0.6932925530736385
+J total do dataset (com regularizacao): 0.6933924776325157
+J total do dataset (com regularizacao): 0.6929216363143794
+J total do dataset (com regularizacao): 0.6568230856558533
+Fold: 3
+J total do dataset (com regularizacao): 0.8014207474192226
+J total do dataset (com regularizacao): 0.6928737129603463
+J total do dataset (com regularizacao): 0.6984470933761749
+J total do dataset (com regularizacao): 0.693350377306725
+J total do dataset (com regularizacao): 0.6934411345513226
+J total do dataset (com regularizacao): 0.6929663794221245
+J total do dataset (com regularizacao): 0.6568060250185194
+Fold: 4
+J total do dataset (com regularizacao): 0.8005807061376433
+J total do dataset (com regularizacao): 0.692910437802782
+J total do dataset (com regularizacao): 0.6984543600833432
+J total do dataset (com regularizacao): 0.6933975109275152
+J total do dataset (com regularizacao): 0.6934809330866893
+J total do dataset (com regularizacao): 0.6930032402335178
+J total do dataset (com regularizacao): 0.6567997488749027
+Fold: 5
+J total do dataset (com regularizacao): 0.7999128465704461
+J total do dataset (com regularizacao): 0.6929412117269192
+J total do dataset (com regularizacao): 0.698465779330258
+J total do dataset (com regularizacao): 0.693433157452161
+J total do dataset (com regularizacao): 0.6935140515868089
+J total do dataset (com regularizacao): 0.6930338803824516
+J total do dataset (com regularizacao): 0.6625261728857078
+Fold: 6
+J total do dataset (com regularizacao): 0.7698281780956501
+J total do dataset (com regularizacao): 0.6929226747393805
+J total do dataset (com regularizacao): 0.6968984894654799
+J total do dataset (com regularizacao): 0.6932278577839829
+J total do dataset (com regularizacao): 0.6932959969993306
+J total do dataset (com regularizacao): 0.6929475956576304
+J total do dataset (com regularizacao): 0.6687054691189835
+Fold: 7
+J total do dataset (com regularizacao): 0.7472894318927193
+J total do dataset (com regularizacao): 0.6928731566522762
+J total do dataset (com regularizacao): 0.6956422645803192
+J total do dataset (com regularizacao): 0.6930294971544273
+J total do dataset (com regularizacao): 0.6930853845570188
+J total do dataset (com regularizacao): 0.6928444700669445
+J total do dataset (com regularizacao): 0.6696839305681943
+Fold: 8
+J total do dataset (com regularizacao): 0.7474926734510864
+J total do dataset (com regularizacao): 0.6928329623571972
+J total do dataset (com regularizacao): 0.6955666024492426
+J total do dataset (com regularizacao): 0.6929619057564597
+J total do dataset (com regularizacao): 0.6930264796331295
+J total do dataset (com regularizacao): 0.6927942884000253
+J total do dataset (com regularizacao): 0.6696983703428552
+Fold: 9
+J total do dataset (com regularizacao): 0.7479904994962975
+J total do dataset (com regularizacao): 0.6927969072210837
+J total do dataset (com regularizacao): 0.6955404905958112
+J total do dataset (com regularizacao): 0.6929153223421346
+J total do dataset (com regularizacao): 0.6929853734694185
+J total do dataset (com regularizacao): 0.6927548514535556
+J total do dataset (com regularizacao): 0.6696637017634716
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904688]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903365]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904052]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31906302]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904461]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904037]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903616]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903748]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903972]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904107]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904049]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903749]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906747]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905977]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906436]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906161]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904251]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904906]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906784]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906305]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905071]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31907732]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906373]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904201]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903926]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904583]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906459]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190427]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906421]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906476]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904119]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190516]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906635]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906227]]
+J final: 0.8774929539172855
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.748439068426695
+J total do dataset (com regularizacao): 0.6927661160130105
+J total do dataset (com regularizacao): 0.695523474909399
+J total do dataset (com regularizacao): 0.6928779492253779
+J total do dataset (com regularizacao): 0.6929541812667563
+J total do dataset (com regularizacao): 0.6927244351763291
+J total do dataset (com regularizacao): 0.6599076161169136
+Fold: 1
+J total do dataset (com regularizacao): 0.8026649149419753
+J total do dataset (com regularizacao): 0.6927862964131489
+J total do dataset (com regularizacao): 0.6983025632539949
+J total do dataset (com regularizacao): 0.6932011596147477
+J total do dataset (com regularizacao): 0.6933198434054799
+J total do dataset (com regularizacao): 0.6928639324440801
+J total do dataset (com regularizacao): 0.6569999725007265
+Fold: 2
+J total do dataset (com regularizacao): 0.8024313808169605
+J total do dataset (com regularizacao): 0.6928276218528197
+J total do dataset (com regularizacao): 0.6984244823547198
+J total do dataset (com regularizacao): 0.6932913382016951
+J total do dataset (com regularizacao): 0.6933928004225822
+J total do dataset (com regularizacao): 0.6929224574179981
+J total do dataset (com regularizacao): 0.6568361619854948
+Fold: 3
+J total do dataset (com regularizacao): 0.8014383096646563
+J total do dataset (com regularizacao): 0.6928706669135232
+J total do dataset (com regularizacao): 0.6984439490711836
+J total do dataset (com regularizacao): 0.6933478150249771
+J total do dataset (com regularizacao): 0.6934404948074994
+J total do dataset (com regularizacao): 0.6929665817614248
+J total do dataset (com regularizacao): 0.6568214066334064
+Fold: 4
+J total do dataset (com regularizacao): 0.8006157068656289
+J total do dataset (com regularizacao): 0.6929059623950358
+J total do dataset (com regularizacao): 0.6984561007404649
+J total do dataset (com regularizacao): 0.693393034023025
+J total do dataset (com regularizacao): 0.6934790235179087
+J total do dataset (com regularizacao): 0.6930025947515479
+J total do dataset (com regularizacao): 0.6568186022263987
+Fold: 5
+J total do dataset (com regularizacao): 0.7999672323301874
+J total do dataset (com regularizacao): 0.6929350672978136
+J total do dataset (com regularizacao): 0.6984674692886536
+J total do dataset (com regularizacao): 0.6934296503826474
+J total do dataset (com regularizacao): 0.693510932146268
+J total do dataset (com regularizacao): 0.6930317887139887
+J total do dataset (com regularizacao): 0.6625424167471615
+Fold: 6
+J total do dataset (com regularizacao): 0.769886489055736
+J total do dataset (com regularizacao): 0.6929160937245737
+J total do dataset (com regularizacao): 0.6968989813441586
+J total do dataset (com regularizacao): 0.6932209443051415
+J total do dataset (com regularizacao): 0.6932900267428581
+J total do dataset (com regularizacao): 0.6929437789980746
+J total do dataset (com regularizacao): 0.6687049642572225
+Fold: 7
+J total do dataset (com regularizacao): 0.747344348899734
+J total do dataset (com regularizacao): 0.692867282141935
+J total do dataset (com regularizacao): 0.6956425490670106
+J total do dataset (com regularizacao): 0.6930235405398598
+J total do dataset (com regularizacao): 0.693082299028731
+J total do dataset (com regularizacao): 0.6928406924336642
+J total do dataset (com regularizacao): 0.6696832492625028
+Fold: 8
+J total do dataset (com regularizacao): 0.7475463480290765
+J total do dataset (com regularizacao): 0.6928274555523568
+J total do dataset (com regularizacao): 0.6955667319248271
+J total do dataset (com regularizacao): 0.6929562444689397
+J total do dataset (com regularizacao): 0.6930238811157909
+J total do dataset (com regularizacao): 0.6927893928698069
+J total do dataset (com regularizacao): 0.6696936035520912
+Fold: 9
+J total do dataset (com regularizacao): 0.7480435391616056
+J total do dataset (com regularizacao): 0.6927917043682214
+J total do dataset (com regularizacao): 0.6955406545545922
+J total do dataset (com regularizacao): 0.6929099802223808
+J total do dataset (com regularizacao): 0.6929828364717269
+J total do dataset (com regularizacao): 0.6927515088005748
+J total do dataset (com regularizacao): 0.66966177348527
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899327]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898988]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898349]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898057]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898221]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898695]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31897289]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899297]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898291]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3189867]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31897333]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900011]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899461]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899702]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899959]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31898584]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899069]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31898613]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900331]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899946]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900374]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900095]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900036]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31898722]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899156]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900427]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899734]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.319004]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900279]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899861]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190038]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900222]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899882]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900039]]
+J final: 0.8775798408282166
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484724847481217
+J total do dataset (com regularizacao): 0.6927631486736285
+J total do dataset (com regularizacao): 0.6955246406511094
+J total do dataset (com regularizacao): 0.6928718485602546
+J total do dataset (com regularizacao): 0.6929516415935646
+J total do dataset (com regularizacao): 0.6927235799237159
+J total do dataset (com regularizacao): 0.6599096932568479
+Fold: 1
+J total do dataset (com regularizacao): 0.8027290017828901
+J total do dataset (com regularizacao): 0.6927839761582109
+J total do dataset (com regularizacao): 0.6983062672545601
+J total do dataset (com regularizacao): 0.693194432493123
+J total do dataset (com regularizacao): 0.6933182031610972
+J total do dataset (com regularizacao): 0.6928639670353215
+J total do dataset (com regularizacao): 0.6570038859836566
+Fold: 2
+J total do dataset (com regularizacao): 0.8024777991108479
+J total do dataset (com regularizacao): 0.6928248400129062
+J total do dataset (com regularizacao): 0.6984294646597454
+J total do dataset (com regularizacao): 0.6932849718374228
+J total do dataset (com regularizacao): 0.6933923000906066
+J total do dataset (com regularizacao): 0.6929234786699633
+J total do dataset (com regularizacao): 0.6568399523867118
+Fold: 3
+J total do dataset (com regularizacao): 0.8014670758128695
+J total do dataset (com regularizacao): 0.6928694913315028
+J total do dataset (com regularizacao): 0.6984480628054033
+J total do dataset (com regularizacao): 0.6933420144816571
+J total do dataset (com regularizacao): 0.6934411114953172
+J total do dataset (com regularizacao): 0.6929686262593315
+J total do dataset (com regularizacao): 0.6568250215682151
+Fold: 4
+J total do dataset (com regularizacao): 0.8006270681247395
+J total do dataset (com regularizacao): 0.6929059403560879
+J total do dataset (com regularizacao): 0.6984581606556239
+J total do dataset (com regularizacao): 0.6933879934094795
+J total do dataset (com regularizacao): 0.6934808719189035
+J total do dataset (com regularizacao): 0.693005795565754
+J total do dataset (com regularizacao): 0.6568215941142819
+Fold: 5
+J total do dataset (com regularizacao): 0.7999608758793779
+J total do dataset (com regularizacao): 0.6929363310102755
+J total do dataset (com regularizacao): 0.6984660238728154
+J total do dataset (com regularizacao): 0.6934262468247655
+J total do dataset (com regularizacao): 0.6935149981411358
+J total do dataset (com regularizacao): 0.6930347287756512
+J total do dataset (com regularizacao): 0.6625402753803407
+Fold: 6
+J total do dataset (com regularizacao): 0.7698654911535818
+J total do dataset (com regularizacao): 0.6929182729475101
+J total do dataset (com regularizacao): 0.6968980470912335
+J total do dataset (com regularizacao): 0.6932166290718974
+J total do dataset (com regularizacao): 0.6932947881077401
+J total do dataset (com regularizacao): 0.6929470147343185
+J total do dataset (com regularizacao): 0.66870287339089
+Fold: 7
+J total do dataset (com regularizacao): 0.7473204531801393
+J total do dataset (com regularizacao): 0.6928698448297462
+J total do dataset (com regularizacao): 0.6956422947126621
+J total do dataset (com regularizacao): 0.693020806491348
+J total do dataset (com regularizacao): 0.6930879260587022
+J total do dataset (com regularizacao): 0.6928438318306911
+J total do dataset (com regularizacao): 0.6696831084767452
+Fold: 8
+J total do dataset (com regularizacao): 0.7475185483295983
+J total do dataset (com regularizacao): 0.6928302238413744
+J total do dataset (com regularizacao): 0.6955666311052531
+J total do dataset (com regularizacao): 0.6929542783631104
+J total do dataset (com regularizacao): 0.6930289222159399
+J total do dataset (com regularizacao): 0.6927924954262307
+J total do dataset (com regularizacao): 0.6696936341559587
+Fold: 9
+J total do dataset (com regularizacao): 0.7480135292220794
+J total do dataset (com regularizacao): 0.6927945984167428
+J total do dataset (com regularizacao): 0.6955407145063417
+J total do dataset (com regularizacao): 0.6929086119125479
+J total do dataset (com regularizacao): 0.6929877532391268
+J total do dataset (com regularizacao): 0.6927553339094246
+J total do dataset (com regularizacao): 0.6696655524349069
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902171]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901954]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902959]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190264]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900678]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900609]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904121]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902868]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901449]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901473]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902834]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901772]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901989]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902917]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903138]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190419]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905362]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904198]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190346]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903014]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902427]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903479]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904312]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902103]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904874]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904497]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902301]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901989]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903867]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904138]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904536]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903199]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903631]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904726]]
+J final: 0.8775242596863285
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484429977583189
+J total do dataset (com regularizacao): 0.6927667303863158
+J total do dataset (com regularizacao): 0.6955220411117785
+J total do dataset (com regularizacao): 0.692876274329321
+J total do dataset (com regularizacao): 0.6929541356741691
+J total do dataset (com regularizacao): 0.6927251891102023
+J total do dataset (com regularizacao): 0.6599084678988439
+Fold: 1
+J total do dataset (com regularizacao): 0.8026817581055157
+J total do dataset (com regularizacao): 0.6927881391690943
+J total do dataset (com regularizacao): 0.6983013518579383
+J total do dataset (com regularizacao): 0.6931998095125521
+J total do dataset (com regularizacao): 0.6933207572204382
+J total do dataset (com regularizacao): 0.6928654697961178
+J total do dataset (com regularizacao): 0.6570001957343468
+Fold: 2
+J total do dataset (com regularizacao): 0.8024352788586294
+J total do dataset (com regularizacao): 0.6928257005392464
+J total do dataset (com regularizacao): 0.6984249266982236
+J total do dataset (com regularizacao): 0.6932909551016396
+J total do dataset (com regularizacao): 0.6933950032350643
+J total do dataset (com regularizacao): 0.6929249111031517
+J total do dataset (com regularizacao): 0.6568346485722132
+Fold: 3
+J total do dataset (com regularizacao): 0.8014268938375854
+J total do dataset (com regularizacao): 0.6928740193582824
+J total do dataset (com regularizacao): 0.6984416884874013
+J total do dataset (com regularizacao): 0.6933481839578065
+J total do dataset (com regularizacao): 0.6934435434041528
+J total do dataset (com regularizacao): 0.6929697826499727
+J total do dataset (com regularizacao): 0.6568202081517842
+Fold: 4
+J total do dataset (com regularizacao): 0.8005911086751828
+J total do dataset (com regularizacao): 0.6929103616502015
+J total do dataset (com regularizacao): 0.6984599250739154
+J total do dataset (com regularizacao): 0.6933933486754558
+J total do dataset (com regularizacao): 0.6934824790921003
+J total do dataset (com regularizacao): 0.693006211304766
+J total do dataset (com regularizacao): 0.6568192976744975
+Fold: 5
+J total do dataset (com regularizacao): 0.7999339892630887
+J total do dataset (com regularizacao): 0.6929400933406856
+J total do dataset (com regularizacao): 0.6984690626763561
+J total do dataset (com regularizacao): 0.6934318892682032
+J total do dataset (com regularizacao): 0.6935154430977635
+J total do dataset (com regularizacao): 0.6930349096736399
+J total do dataset (com regularizacao): 0.6625408654987114
+Fold: 6
+J total do dataset (com regularizacao): 0.7698545753397695
+J total do dataset (com regularizacao): 0.6929208544943817
+J total do dataset (com regularizacao): 0.6969007801475133
+J total do dataset (com regularizacao): 0.6932224610372667
+J total do dataset (com regularizacao): 0.6932961935265912
+J total do dataset (com regularizacao): 0.6929476421591331
+J total do dataset (com regularizacao): 0.6687096206515876
+Fold: 7
+J total do dataset (com regularizacao): 0.7473153660350883
+J total do dataset (com regularizacao): 0.6928713320524722
+J total do dataset (com regularizacao): 0.6956440079873504
+J total do dataset (com regularizacao): 0.6930250597330827
+J total do dataset (com regularizacao): 0.693084367363054
+J total do dataset (com regularizacao): 0.6928444799415941
+J total do dataset (com regularizacao): 0.6696863070597383
+Fold: 8
+J total do dataset (com regularizacao): 0.7475186390176473
+J total do dataset (com regularizacao): 0.6928312323557433
+J total do dataset (com regularizacao): 0.6955682031458243
+J total do dataset (com regularizacao): 0.6929578961087961
+J total do dataset (com regularizacao): 0.6930249961906657
+J total do dataset (com regularizacao): 0.6927911355150218
+J total do dataset (com regularizacao): 0.6696893513894732
+Fold: 9
+J total do dataset (com regularizacao): 0.748016361898403
+J total do dataset (com regularizacao): 0.6927953491385427
+J total do dataset (com regularizacao): 0.6955422661529511
+J total do dataset (com regularizacao): 0.6929118389303373
+J total do dataset (com regularizacao): 0.6929841404500486
+J total do dataset (com regularizacao): 0.6927528435157833
+J total do dataset (com regularizacao): 0.6696568099607363
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901522]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899829]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903413]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902783]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190032]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901988]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902164]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903459]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901144]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900675]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901355]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901187]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903268]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901419]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902755]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903471]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903035]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190266]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904059]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901563]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901741]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190339]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902143]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901368]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903834]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190104]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901689]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190266]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903324]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902467]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902963]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190326]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903539]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901584]]
+J final: 0.8775416284430827
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484452740821069
+J total do dataset (com regularizacao): 0.6927663642462185
+J total do dataset (com regularizacao): 0.6955258288565472
+J total do dataset (com regularizacao): 0.6928740899955463
+J total do dataset (com regularizacao): 0.6929525473250404
+J total do dataset (com regularizacao): 0.6927244922347566
+J total do dataset (com regularizacao): 0.6599014228376173
+Fold: 1
+J total do dataset (com regularizacao): 0.8026783262527811
+J total do dataset (com regularizacao): 0.6927875339361977
+J total do dataset (com regularizacao): 0.6983050484064272
+J total do dataset (com regularizacao): 0.6931963523036941
+J total do dataset (com regularizacao): 0.6933181942974442
+J total do dataset (com regularizacao): 0.6928643443140075
+J total do dataset (com regularizacao): 0.6569946700783961
+Fold: 2
+J total do dataset (com regularizacao): 0.8024371931954596
+J total do dataset (com regularizacao): 0.6928322295493808
+J total do dataset (com regularizacao): 0.6984270245754969
+J total do dataset (com regularizacao): 0.6932862374852307
+J total do dataset (com regularizacao): 0.6933911547019254
+J total do dataset (com regularizacao): 0.6929230271525723
+J total do dataset (com regularizacao): 0.6568307017767343
+Fold: 3
+J total do dataset (com regularizacao): 0.8014390215826913
+J total do dataset (com regularizacao): 0.6928711791410356
+J total do dataset (com regularizacao): 0.6984477534192693
+J total do dataset (com regularizacao): 0.6933429540164757
+J total do dataset (com regularizacao): 0.6934392644860453
+J total do dataset (com regularizacao): 0.6929675601446581
+J total do dataset (com regularizacao): 0.6568139949475591
+Fold: 4
+J total do dataset (com regularizacao): 0.800608682939429
+J total do dataset (com regularizacao): 0.6929068555543998
+J total do dataset (com regularizacao): 0.6984607937408795
+J total do dataset (com regularizacao): 0.6933881258519248
+J total do dataset (com regularizacao): 0.693478063388985
+J total do dataset (com regularizacao): 0.6930038887856048
+J total do dataset (com regularizacao): 0.6568107622934094
+Fold: 5
+J total do dataset (com regularizacao): 0.7999528152218471
+J total do dataset (com regularizacao): 0.6929363011462943
+J total do dataset (com regularizacao): 0.6984693693208394
+J total do dataset (com regularizacao): 0.6934266233211541
+J total do dataset (com regularizacao): 0.6935112392296496
+J total do dataset (com regularizacao): 0.6930334023615535
+J total do dataset (com regularizacao): 0.6625374513990497
+Fold: 6
+J total do dataset (com regularizacao): 0.7698665103910872
+J total do dataset (com regularizacao): 0.692917541020182
+J total do dataset (com regularizacao): 0.6969004928991237
+J total do dataset (com regularizacao): 0.6932177971368434
+J total do dataset (com regularizacao): 0.6932953616403851
+J total do dataset (com regularizacao): 0.6929453125832192
+J total do dataset (com regularizacao): 0.6687063897686216
+Fold: 7
+J total do dataset (com regularizacao): 0.7473249545170415
+J total do dataset (com regularizacao): 0.6928685947331941
+J total do dataset (com regularizacao): 0.6956435735777904
+J total do dataset (com regularizacao): 0.6930212759991117
+J total do dataset (com regularizacao): 0.6930853732318069
+J total do dataset (com regularizacao): 0.6928421544867137
+J total do dataset (com regularizacao): 0.6696840861503521
+Fold: 8
+J total do dataset (com regularizacao): 0.7475279729252292
+J total do dataset (com regularizacao): 0.6928287128745833
+J total do dataset (com regularizacao): 0.6955677111029219
+J total do dataset (com regularizacao): 0.6929544240947051
+J total do dataset (com regularizacao): 0.6930258354049086
+J total do dataset (com regularizacao): 0.6927915940064735
+J total do dataset (com regularizacao): 0.6696960833801093
+Fold: 9
+J total do dataset (com regularizacao): 0.7480257371855357
+J total do dataset (com regularizacao): 0.692792925583716
+J total do dataset (com regularizacao): 0.6955415453933836
+J total do dataset (com regularizacao): 0.6929084831407598
+J total do dataset (com regularizacao): 0.6929846446249496
+J total do dataset (com regularizacao): 0.6927527544709475
+J total do dataset (com regularizacao): 0.669661322534815
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900394]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900062]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3189975]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900019]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900093]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899789]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900342]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900485]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899943]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900464]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899652]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900163]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902115]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900899]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190045]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901859]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900831]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901784]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902036]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902161]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902038]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901037]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901511]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901803]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901504]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900675]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902212]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900878]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901932]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901972]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902037]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901034]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900678]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901821]]
+J final: 0.8775540889268446
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484542038823331
+J total do dataset (com regularizacao): 0.6927678115916969
+J total do dataset (com regularizacao): 0.6955212206373751
+J total do dataset (com regularizacao): 0.6928731777850309
+J total do dataset (com regularizacao): 0.6929517975813715
+J total do dataset (com regularizacao): 0.6927240408716534
+J total do dataset (com regularizacao): 0.6599054476821954
+Fold: 1
+J total do dataset (com regularizacao): 0.8026986296132717
+J total do dataset (com regularizacao): 0.6927903289408148
+J total do dataset (com regularizacao): 0.6983002960890738
+J total do dataset (com regularizacao): 0.6931956690707639
+J total do dataset (com regularizacao): 0.6933178408483333
+J total do dataset (com regularizacao): 0.6928642515680633
+J total do dataset (com regularizacao): 0.6569985578427169
+Fold: 2
+J total do dataset (com regularizacao): 0.8024497686181082
+J total do dataset (com regularizacao): 0.692832845849299
+J total do dataset (com regularizacao): 0.6984226444216569
+J total do dataset (com regularizacao): 0.6932860041388509
+J total do dataset (com regularizacao): 0.6933913855688224
+J total do dataset (com regularizacao): 0.692923450316641
+J total do dataset (com regularizacao): 0.6568336841899656
+Fold: 3
+J total do dataset (com regularizacao): 0.8014420707829439
+J total do dataset (com regularizacao): 0.6928697287170744
+J total do dataset (com regularizacao): 0.698442862237982
+J total do dataset (com regularizacao): 0.6933433687038801
+J total do dataset (com regularizacao): 0.6934402392167722
+J total do dataset (com regularizacao): 0.6929686251809104
+J total do dataset (com regularizacao): 0.6568157091487153
+Fold: 4
+J total do dataset (com regularizacao): 0.8005998193154895
+J total do dataset (com regularizacao): 0.6929061078677553
+J total do dataset (com regularizacao): 0.6984526004949254
+J total do dataset (com regularizacao): 0.6933896136013685
+J total do dataset (com regularizacao): 0.6934798443180188
+J total do dataset (com regularizacao): 0.693005758448332
+J total do dataset (com regularizacao): 0.6568107812471821
+Fold: 5
+J total do dataset (com regularizacao): 0.7999307868094778
+J total do dataset (com regularizacao): 0.6929364078382142
+J total do dataset (com regularizacao): 0.6984619765650006
+J total do dataset (com regularizacao): 0.6934324148706983
+J total do dataset (com regularizacao): 0.6935132277486461
+J total do dataset (com regularizacao): 0.6930337285261088
+J total do dataset (com regularizacao): 0.6625317770582326
+Fold: 6
+J total do dataset (com regularizacao): 0.7698485279271504
+J total do dataset (com regularizacao): 0.6929184057412724
+J total do dataset (com regularizacao): 0.6968952078906104
+J total do dataset (com regularizacao): 0.6932242199473714
+J total do dataset (com regularizacao): 0.6932962272908393
+J total do dataset (com regularizacao): 0.692947459986366
+J total do dataset (com regularizacao): 0.668707911832155
+Fold: 7
+J total do dataset (com regularizacao): 0.7473029499898338
+J total do dataset (com regularizacao): 0.6928698242565823
+J total do dataset (com regularizacao): 0.6956392646618456
+J total do dataset (com regularizacao): 0.693026527538113
+J total do dataset (com regularizacao): 0.6930844135399904
+J total do dataset (com regularizacao): 0.692844402825029
+J total do dataset (com regularizacao): 0.6696850209689623
+Fold: 8
+J total do dataset (com regularizacao): 0.7475053657177902
+J total do dataset (com regularizacao): 0.6928300953297967
+J total do dataset (com regularizacao): 0.6955640354720086
+J total do dataset (com regularizacao): 0.6929593259462662
+J total do dataset (com regularizacao): 0.6930257667139931
+J total do dataset (com regularizacao): 0.6927932776690134
+J total do dataset (com regularizacao): 0.669695344064374
+Fold: 9
+J total do dataset (com regularizacao): 0.7480020865577417
+J total do dataset (com regularizacao): 0.6927943998260851
+J total do dataset (com regularizacao): 0.6955383039109896
+J total do dataset (com regularizacao): 0.6929130911430377
+J total do dataset (com regularizacao): 0.6929848038561347
+J total do dataset (com regularizacao): 0.6927546655555553
+J total do dataset (com regularizacao): 0.6696590215601419
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902599]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901931]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901415]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902081]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901671]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900613]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902072]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902282]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902241]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902094]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901986]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902278]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904235]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190254]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904356]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904202]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902331]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904614]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904186]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902355]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903995]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903312]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902543]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904411]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903381]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904977]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904578]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903383]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904219]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905659]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902179]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190515]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903971]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903971]]
+J final: 0.8775188234465929
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484431366924303
+J total do dataset (com regularizacao): 0.6927697958057781
+J total do dataset (com regularizacao): 0.6955229610507208
+J total do dataset (com regularizacao): 0.6928779110311528
+J total do dataset (com regularizacao): 0.6929544545823054
+J total do dataset (com regularizacao): 0.6927252880962148
+J total do dataset (com regularizacao): 0.659912280092304
+Fold: 1
+J total do dataset (com regularizacao): 0.8026578571157347
+J total do dataset (com regularizacao): 0.6927920807239532
+J total do dataset (com regularizacao): 0.698300211773386
+J total do dataset (com regularizacao): 0.6932010072475648
+J total do dataset (com regularizacao): 0.6933202673391076
+J total do dataset (com regularizacao): 0.6928650034386675
+J total do dataset (com regularizacao): 0.6570070156411745
+Fold: 2
+J total do dataset (com regularizacao): 0.8024250738215325
+J total do dataset (com regularizacao): 0.6928269444901128
+J total do dataset (com regularizacao): 0.6984237601418347
+J total do dataset (com regularizacao): 0.6932914178150928
+J total do dataset (com regularizacao): 0.6933936245249769
+J total do dataset (com regularizacao): 0.6929237315562209
+J total do dataset (com regularizacao): 0.6568419535844869
+Fold: 3
+J total do dataset (com regularizacao): 0.8014297656068505
+J total do dataset (com regularizacao): 0.6928720491790802
+J total do dataset (com regularizacao): 0.6984415040474405
+J total do dataset (com regularizacao): 0.6933479751629535
+J total do dataset (com regularizacao): 0.6934414051387294
+J total do dataset (com regularizacao): 0.6929679543062814
+J total do dataset (com regularizacao): 0.6568274727831653
+Fold: 4
+J total do dataset (com regularizacao): 0.800605429607216
+J total do dataset (com regularizacao): 0.6929074721848277
+J total do dataset (com regularizacao): 0.6984542839492389
+J total do dataset (com regularizacao): 0.6933929712940673
+J total do dataset (com regularizacao): 0.6934799890106591
+J total do dataset (com regularizacao): 0.6930039832313386
+J total do dataset (com regularizacao): 0.6568250108165572
+Fold: 5
+J total do dataset (com regularizacao): 0.7999559742058905
+J total do dataset (com regularizacao): 0.6929366518340699
+J total do dataset (com regularizacao): 0.6984664000257093
+J total do dataset (com regularizacao): 0.6934263664777227
+J total do dataset (com regularizacao): 0.6935123999623065
+J total do dataset (com regularizacao): 0.6930319981296711
+J total do dataset (com regularizacao): 0.662539458883884
+Fold: 6
+J total do dataset (com regularizacao): 0.7698783007716521
+J total do dataset (com regularizacao): 0.692917736529726
+J total do dataset (com regularizacao): 0.696898588560396
+J total do dataset (com regularizacao): 0.6932176815994863
+J total do dataset (com regularizacao): 0.6932909188771288
+J total do dataset (com regularizacao): 0.6929450929101214
+J total do dataset (com regularizacao): 0.6687048219873587
+Fold: 7
+J total do dataset (com regularizacao): 0.7473351058730215
+J total do dataset (com regularizacao): 0.6928687883652811
+J total do dataset (com regularizacao): 0.6956422087316908
+J total do dataset (com regularizacao): 0.6930211164611628
+J total do dataset (com regularizacao): 0.6930818919271622
+J total do dataset (com regularizacao): 0.6928419767485496
+J total do dataset (com regularizacao): 0.6696824376144465
+Fold: 8
+J total do dataset (com regularizacao): 0.747537140917188
+J total do dataset (com regularizacao): 0.6928289541851409
+J total do dataset (com regularizacao): 0.6955665183339023
+J total do dataset (com regularizacao): 0.6929542763969009
+J total do dataset (com regularizacao): 0.6930236469824077
+J total do dataset (com regularizacao): 0.6927908094238044
+J total do dataset (com regularizacao): 0.6696937520540618
+Fold: 9
+J total do dataset (com regularizacao): 0.7480338066826392
+J total do dataset (com regularizacao): 0.6927931795398015
+J total do dataset (com regularizacao): 0.6955404658263631
+J total do dataset (com regularizacao): 0.6929083369544877
+J total do dataset (com regularizacao): 0.6929826850209929
+J total do dataset (com regularizacao): 0.6927525679400833
+J total do dataset (com regularizacao): 0.6696598899052558
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898692]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899223]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900277]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898947]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898877]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899535]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899791]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3189902]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31898795]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190001]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900286]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3189911]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900099]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900333]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899418]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899895]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901038]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901096]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.318991]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901911]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899541]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899552]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901312]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190075]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901374]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900154]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900174]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901237]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900799]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899475]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901218]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900887]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899245]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31899079]]
+J final: 0.8775735858206157
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484656617596058
+J total do dataset (com regularizacao): 0.6927644257182648
+J total do dataset (com regularizacao): 0.6955217418772962
+J total do dataset (com regularizacao): 0.6928748020589357
+J total do dataset (com regularizacao): 0.6929529213810203
+J total do dataset (com regularizacao): 0.6927236869450961
+J total do dataset (com regularizacao): 0.6599074343352908
+Fold: 1
+J total do dataset (com regularizacao): 0.8027145107688295
+J total do dataset (com regularizacao): 0.6927857127451945
+J total do dataset (com regularizacao): 0.6983014508445277
+J total do dataset (com regularizacao): 0.6931984261581422
+J total do dataset (com regularizacao): 0.6933197639180226
+J total do dataset (com regularizacao): 0.6928639151143005
+J total do dataset (com regularizacao): 0.6570006554447312
+Fold: 2
+J total do dataset (com regularizacao): 0.8024654028470336
+J total do dataset (com regularizacao): 0.6928275636198181
+J total do dataset (com regularizacao): 0.6984239816036328
+J total do dataset (com regularizacao): 0.6932893624077745
+J total do dataset (com regularizacao): 0.6933938539194094
+J total do dataset (com regularizacao): 0.692923165305866
+J total do dataset (com regularizacao): 0.6568363204772736
+Fold: 3
+J total do dataset (com regularizacao): 0.801457772813751
+J total do dataset (com regularizacao): 0.6928666905388695
+J total do dataset (com regularizacao): 0.6984406476931607
+J total do dataset (com regularizacao): 0.6933473737451078
+J total do dataset (com regularizacao): 0.6934432475364665
+J total do dataset (com regularizacao): 0.6929684050113372
+J total do dataset (com regularizacao): 0.6568191306104155
+Fold: 4
+J total do dataset (com regularizacao): 0.8006159138283989
+J total do dataset (com regularizacao): 0.6929029811121777
+J total do dataset (com regularizacao): 0.698455082454164
+J total do dataset (com regularizacao): 0.6933935801448123
+J total do dataset (com regularizacao): 0.6934830391888769
+J total do dataset (com regularizacao): 0.6930053335899633
+J total do dataset (com regularizacao): 0.6568164443566907
+Fold: 5
+J total do dataset (com regularizacao): 0.7999502031086403
+J total do dataset (com regularizacao): 0.6929329856226922
+J total do dataset (com regularizacao): 0.6984623857842194
+J total do dataset (com regularizacao): 0.693432427768988
+J total do dataset (com regularizacao): 0.6935152560889157
+J total do dataset (com regularizacao): 0.6930337253316843
+J total do dataset (com regularizacao): 0.6625325933872684
+Fold: 6
+J total do dataset (com regularizacao): 0.7698577536857537
+J total do dataset (com regularizacao): 0.6929154686278024
+J total do dataset (com regularizacao): 0.6968950195593246
+J total do dataset (com regularizacao): 0.6932202796893943
+J total do dataset (com regularizacao): 0.6932962461729274
+J total do dataset (com regularizacao): 0.6929482763020594
+J total do dataset (com regularizacao): 0.6687036674495801
+Fold: 7
+J total do dataset (com regularizacao): 0.7473130304519006
+J total do dataset (com regularizacao): 0.6928676661667719
+J total do dataset (com regularizacao): 0.6956396295328607
+J total do dataset (com regularizacao): 0.6930236619856892
+J total do dataset (com regularizacao): 0.6930879418775756
+J total do dataset (com regularizacao): 0.6928449724843411
+J total do dataset (com regularizacao): 0.6696835795722937
+Fold: 8
+J total do dataset (com regularizacao): 0.7475120632404623
+J total do dataset (com regularizacao): 0.6928282600034968
+J total do dataset (com regularizacao): 0.6955642606505914
+J total do dataset (com regularizacao): 0.6929567926670128
+J total do dataset (com regularizacao): 0.693028525216697
+J total do dataset (com regularizacao): 0.6927945805581919
+J total do dataset (com regularizacao): 0.6696977001263702
+Fold: 9
+J total do dataset (com regularizacao): 0.7480073890705113
+J total do dataset (com regularizacao): 0.6927928097782461
+J total do dataset (com regularizacao): 0.6955384976669018
+J total do dataset (com regularizacao): 0.692910827535939
+J total do dataset (com regularizacao): 0.6929873513412409
+J total do dataset (com regularizacao): 0.6927546038652842
+J total do dataset (com regularizacao): 0.6696610628373794
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902438]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901536]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901298]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904521]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902798]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190308]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902797]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190373]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190533]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903805]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904944]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31905197]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902817]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905378]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190456]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902886]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190465]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190574]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.319028]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905258]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905245]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904348]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190553]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190328]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902998]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902899]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902853]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903333]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905324]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905181]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.319049]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902583]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905401]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904697]]
+J final: 0.8775186914991557
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484403322947615
+J total do dataset (com regularizacao): 0.6927658998569242
+J total do dataset (com regularizacao): 0.6955232744173553
+J total do dataset (com regularizacao): 0.6928760991324069
+J total do dataset (com regularizacao): 0.6929533580976783
+J total do dataset (com regularizacao): 0.6927244012470541
+J total do dataset (com regularizacao): 0.6599019749532552
+Fold: 1
+J total do dataset (com regularizacao): 0.8026697778120465
+J total do dataset (com regularizacao): 0.6927868215466235
+J total do dataset (com regularizacao): 0.6983025700234609
+J total do dataset (com regularizacao): 0.6931992538807401
+J total do dataset (com regularizacao): 0.6933195838268145
+J total do dataset (com regularizacao): 0.6928643298004162
+J total do dataset (com regularizacao): 0.6569937958007465
+Fold: 2
+J total do dataset (com regularizacao): 0.8024270268344579
+J total do dataset (com regularizacao): 0.6928293163223791
+J total do dataset (com regularizacao): 0.6984246944987814
+J total do dataset (com regularizacao): 0.6932896812473335
+J total do dataset (com regularizacao): 0.693393034797575
+J total do dataset (com regularizacao): 0.69292321453542
+J total do dataset (com regularizacao): 0.65682918039475
+Fold: 3
+J total do dataset (com regularizacao): 0.8014258298333855
+J total do dataset (com regularizacao): 0.6928718585812581
+J total do dataset (com regularizacao): 0.6984431413681613
+J total do dataset (com regularizacao): 0.6933466208262519
+J total do dataset (com regularizacao): 0.6934412393442383
+J total do dataset (com regularizacao): 0.6929677997139917
+J total do dataset (com regularizacao): 0.6568133653179247
+Fold: 4
+J total do dataset (com regularizacao): 0.8005943590798619
+J total do dataset (com regularizacao): 0.6929077202450701
+J total do dataset (com regularizacao): 0.6984576723987165
+J total do dataset (com regularizacao): 0.6933919569547871
+J total do dataset (com regularizacao): 0.6934800374928128
+J total do dataset (com regularizacao): 0.6930041722485057
+J total do dataset (com regularizacao): 0.6568107223207745
+Fold: 5
+J total do dataset (com regularizacao): 0.7999390064516775
+J total do dataset (com regularizacao): 0.6929372388841052
+J total do dataset (com regularizacao): 0.6984659681665393
+J total do dataset (com regularizacao): 0.6934308816337919
+J total do dataset (com regularizacao): 0.6935116348865656
+J total do dataset (com regularizacao): 0.6930326979661051
+J total do dataset (com regularizacao): 0.6625306503350794
+Fold: 6
+J total do dataset (com regularizacao): 0.7698632996341084
+J total do dataset (com regularizacao): 0.6929185832140387
+J total do dataset (com regularizacao): 0.6968986743968199
+J total do dataset (com regularizacao): 0.6932223232984616
+J total do dataset (com regularizacao): 0.6932935443461261
+J total do dataset (com regularizacao): 0.692944729549243
+J total do dataset (com regularizacao): 0.6687002037841376
+Fold: 7
+J total do dataset (com regularizacao): 0.7473194529537971
+J total do dataset (com regularizacao): 0.6928695828298091
+J total do dataset (com regularizacao): 0.6956421746883414
+J total do dataset (com regularizacao): 0.6930248418838686
+J total do dataset (com regularizacao): 0.6930850084155978
+J total do dataset (com regularizacao): 0.692841691204135
+J total do dataset (com regularizacao): 0.6696800059518898
+Fold: 8
+J total do dataset (com regularizacao): 0.747521677767832
+J total do dataset (com regularizacao): 0.6928295930334493
+J total do dataset (com regularizacao): 0.6955663895991668
+J total do dataset (com regularizacao): 0.6929575284473146
+J total do dataset (com regularizacao): 0.6930257836531732
+J total do dataset (com regularizacao): 0.692791211158333
+J total do dataset (com regularizacao): 0.6696930099308745
+Fold: 9
+J total do dataset (com regularizacao): 0.7480194839441461
+J total do dataset (com regularizacao): 0.6927937066246094
+J total do dataset (com regularizacao): 0.695540316879822
+J total do dataset (com regularizacao): 0.6929112174218988
+J total do dataset (com regularizacao): 0.6929845959360553
+J total do dataset (com regularizacao): 0.6927533103332797
+J total do dataset (com regularizacao): 0.6696612090012399
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900642]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903086]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900679]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899606]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901296]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901536]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901652]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901177]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900796]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31899543]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900853]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901062]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901871]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901467]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902858]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901137]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902243]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902441]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900965]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902696]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901986]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903095]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902242]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903271]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902975]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902052]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902788]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902609]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902466]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902684]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901182]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902708]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903097]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902966]]
+J final: 0.8775424273329278
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484517545045429
+J total do dataset (com regularizacao): 0.6927648857614614
+J total do dataset (com regularizacao): 0.6955241600758933
+J total do dataset (com regularizacao): 0.6928771735607095
+J total do dataset (com regularizacao): 0.692953684877789
+J total do dataset (com regularizacao): 0.6927255001062279
+J total do dataset (com regularizacao): 0.6599155832919369
+Fold: 1
+J total do dataset (com regularizacao): 0.8026928142018861
+J total do dataset (com regularizacao): 0.6927855728320771
+J total do dataset (com regularizacao): 0.6983037784966134
+J total do dataset (com regularizacao): 0.6932006186075569
+J total do dataset (com regularizacao): 0.693319775672863
+J total do dataset (com regularizacao): 0.6928656126531062
+J total do dataset (com regularizacao): 0.6570096142367552
+Fold: 2
+J total do dataset (com regularizacao): 0.8024524810848069
+J total do dataset (com regularizacao): 0.6928276564872504
+J total do dataset (com regularizacao): 0.6984262026922844
+J total do dataset (com regularizacao): 0.6932910978507455
+J total do dataset (com regularizacao): 0.6933931384152892
+J total do dataset (com regularizacao): 0.6929245758784601
+J total do dataset (com regularizacao): 0.6568462627359545
+Fold: 3
+J total do dataset (com regularizacao): 0.8014540273719475
+J total do dataset (com regularizacao): 0.6928681638946873
+J total do dataset (com regularizacao): 0.6984449907942434
+J total do dataset (com regularizacao): 0.6933483023371446
+J total do dataset (com regularizacao): 0.6934414834658309
+J total do dataset (com regularizacao): 0.6929692987403036
+J total do dataset (com regularizacao): 0.6568311519287381
+Fold: 4
+J total do dataset (com regularizacao): 0.8006237250915348
+J total do dataset (com regularizacao): 0.692903787251219
+J total do dataset (com regularizacao): 0.6984548833992485
+J total do dataset (com regularizacao): 0.6933944531095214
+J total do dataset (com regularizacao): 0.6934806827364717
+J total do dataset (com regularizacao): 0.6930059510089801
+J total do dataset (com regularizacao): 0.6568279844382336
+Fold: 5
+J total do dataset (com regularizacao): 0.7999666716933116
+J total do dataset (com regularizacao): 0.6929333755887062
+J total do dataset (com regularizacao): 0.6984647604038935
+J total do dataset (com regularizacao): 0.693428995479747
+J total do dataset (com regularizacao): 0.6935133034627944
+J total do dataset (com regularizacao): 0.6930353206265949
+J total do dataset (com regularizacao): 0.6625456077791716
+Fold: 6
+J total do dataset (com regularizacao): 0.7698751587624982
+J total do dataset (com regularizacao): 0.6929153684294638
+J total do dataset (com regularizacao): 0.6968967808066002
+J total do dataset (com regularizacao): 0.6932205737622107
+J total do dataset (com regularizacao): 0.6932948717392302
+J total do dataset (com regularizacao): 0.6929477054964798
+J total do dataset (com regularizacao): 0.6687121636948038
+Fold: 7
+J total do dataset (com regularizacao): 0.747329281930341
+J total do dataset (com regularizacao): 0.6928671490133148
+J total do dataset (com regularizacao): 0.6956407679236799
+J total do dataset (com regularizacao): 0.6930235276813693
+J total do dataset (com regularizacao): 0.6930841092237822
+J total do dataset (com regularizacao): 0.6928444103146619
+J total do dataset (com regularizacao): 0.6696887505760498
+Fold: 8
+J total do dataset (com regularizacao): 0.747530694976263
+J total do dataset (com regularizacao): 0.6928276515178324
+J total do dataset (com regularizacao): 0.6955653892535706
+J total do dataset (com regularizacao): 0.6929565639915863
+J total do dataset (com regularizacao): 0.693025323706701
+J total do dataset (com regularizacao): 0.692791318958464
+J total do dataset (com regularizacao): 0.6696934488046619
+Fold: 9
+J total do dataset (com regularizacao): 0.7480269419591034
+J total do dataset (com regularizacao): 0.6927921708520174
+J total do dataset (com regularizacao): 0.6955397317545068
+J total do dataset (com regularizacao): 0.6929106288816984
+J total do dataset (com regularizacao): 0.6929844411743087
+J total do dataset (com regularizacao): 0.6927532078683923
+J total do dataset (com regularizacao): 0.6696627344633961
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190079]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.319007]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901161]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901214]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900494]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901014]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900743]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902911]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903202]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190208]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900101]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903063]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902535]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903139]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901897]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902468]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901205]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902572]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901759]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902664]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31900888]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190264]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902959]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190284]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190322]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902465]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901199]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902716]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901147]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902756]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903081]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901522]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903086]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902723]]
+J final: 0.8775443364870182
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.748453687251908
+J total do dataset (com regularizacao): 0.6927628391401595
+J total do dataset (com regularizacao): 0.6955241313090169
+J total do dataset (com regularizacao): 0.6928759700048194
+J total do dataset (com regularizacao): 0.6929526799211572
+J total do dataset (com regularizacao): 0.6927244020805183
+J total do dataset (com regularizacao): 0.6599122863983232
+Fold: 1
+J total do dataset (com regularizacao): 0.802691633970656
+J total do dataset (com regularizacao): 0.6927830704781721
+J total do dataset (com regularizacao): 0.6983049865493156
+J total do dataset (com regularizacao): 0.6932000701741826
+J total do dataset (com regularizacao): 0.6933192122809018
+J total do dataset (com regularizacao): 0.6928648873309297
+J total do dataset (com regularizacao): 0.6570054995750247
+Fold: 2
+J total do dataset (com regularizacao): 0.8024399137456096
+J total do dataset (com regularizacao): 0.6928220764268022
+J total do dataset (com regularizacao): 0.6984284608864831
+J total do dataset (com regularizacao): 0.6932915157170597
+J total do dataset (com regularizacao): 0.6933932120733881
+J total do dataset (com regularizacao): 0.6929244104802365
+J total do dataset (com regularizacao): 0.656841189677208
+Fold: 3
+J total do dataset (com regularizacao): 0.8014275459459708
+J total do dataset (com regularizacao): 0.6928655665679919
+J total do dataset (com regularizacao): 0.6984485311062016
+J total do dataset (com regularizacao): 0.6933492685304418
+J total do dataset (com regularizacao): 0.6934419003941258
+J total do dataset (com regularizacao): 0.6929695258193962
+J total do dataset (com regularizacao): 0.6568264580142891
+Fold: 4
+J total do dataset (com regularizacao): 0.8005861370678216
+J total do dataset (com regularizacao): 0.6929014392135747
+J total do dataset (com regularizacao): 0.6984628818135671
+J total do dataset (com regularizacao): 0.6933954207937627
+J total do dataset (com regularizacao): 0.693481228067088
+J total do dataset (com regularizacao): 0.6930064054706412
+J total do dataset (com regularizacao): 0.6568243975637167
+Fold: 5
+J total do dataset (com regularizacao): 0.7999208980852821
+J total do dataset (com regularizacao): 0.6929310503747753
+J total do dataset (com regularizacao): 0.698471920563711
+J total do dataset (com regularizacao): 0.693427543813924
+J total do dataset (com regularizacao): 0.6935162031912678
+J total do dataset (com regularizacao): 0.6930353628140989
+J total do dataset (com regularizacao): 0.6625390715089216
+Fold: 6
+J total do dataset (com regularizacao): 0.7698358602859693
+J total do dataset (com regularizacao): 0.6929137690073914
+J total do dataset (com regularizacao): 0.6969038174589508
+J total do dataset (com regularizacao): 0.693219941288427
+J total do dataset (com regularizacao): 0.6932967717523593
+J total do dataset (com regularizacao): 0.692949195499708
+J total do dataset (com regularizacao): 0.6687095074113055
+Fold: 7
+J total do dataset (com regularizacao): 0.7472975613792481
+J total do dataset (com regularizacao): 0.6928662906727753
+J total do dataset (com regularizacao): 0.695646898752476
+J total do dataset (com regularizacao): 0.693023516705769
+J total do dataset (com regularizacao): 0.6930870921846862
+J total do dataset (com regularizacao): 0.6928459101492116
+J total do dataset (com regularizacao): 0.6696875839539089
+Fold: 8
+J total do dataset (com regularizacao): 0.7474983187966238
+J total do dataset (com regularizacao): 0.6928270270404384
+J total do dataset (com regularizacao): 0.6955708900635246
+J total do dataset (com regularizacao): 0.692956763709823
+J total do dataset (com regularizacao): 0.6930282423199287
+J total do dataset (com regularizacao): 0.6927949218671402
+J total do dataset (com regularizacao): 0.6696992432805334
+Fold: 9
+J total do dataset (com regularizacao): 0.7479943690111753
+J total do dataset (com regularizacao): 0.6927916976914504
+J total do dataset (com regularizacao): 0.6955445766790757
+J total do dataset (com regularizacao): 0.6929108808069698
+J total do dataset (com regularizacao): 0.6929871496244644
+J total do dataset (com regularizacao): 0.6927557999969726
+J total do dataset (com regularizacao): 0.6696614522984554
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902276]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902641]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902146]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902788]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900359]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903069]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31905231]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902401]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903054]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904155]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904389]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902651]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902525]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904922]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904298]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905466]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902751]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904619]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31906201]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190252]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904976]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905357]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904539]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902483]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905503]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903415]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902125]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905277]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904899]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905543]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904838]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31905197]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904596]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903816]]
+J final: 0.877514056412716
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
+[0 1]
+Fold: 0
+J total do dataset (com regularizacao): 0.7484369533239497
+J total do dataset (com regularizacao): 0.6927676647508496
+J total do dataset (com regularizacao): 0.6955269092191695
+J total do dataset (com regularizacao): 0.6928757952309237
+J total do dataset (com regularizacao): 0.6929574818412566
+J total do dataset (com regularizacao): 0.6927258549877497
+J total do dataset (com regularizacao): 0.6599116031572212
+Fold: 1
+J total do dataset (com regularizacao): 0.8026523851780691
+J total do dataset (com regularizacao): 0.6927890628357813
+J total do dataset (com regularizacao): 0.6983062666448024
+J total do dataset (com regularizacao): 0.6931983492601641
+J total do dataset (com regularizacao): 0.6933244241464853
+J total do dataset (com regularizacao): 0.6928658019003039
+J total do dataset (com regularizacao): 0.6570045979999378
+Fold: 2
+J total do dataset (com regularizacao): 0.8024132028213166
+J total do dataset (com regularizacao): 0.6928268929305386
+J total do dataset (com regularizacao): 0.6984301117373546
+J total do dataset (com regularizacao): 0.6932887083473764
+J total do dataset (com regularizacao): 0.6933982609181534
+J total do dataset (com regularizacao): 0.692924766767232
+J total do dataset (com regularizacao): 0.6568395038072368
+Fold: 3
+J total do dataset (com regularizacao): 0.8014127696869464
+J total do dataset (com regularizacao): 0.6928702227566439
+J total do dataset (com regularizacao): 0.6984479853511402
+J total do dataset (com regularizacao): 0.6933455684252523
+J total do dataset (com regularizacao): 0.6934467847022976
+J total do dataset (com regularizacao): 0.6929693814558223
+J total do dataset (com regularizacao): 0.6568239808218186
+Fold: 4
+J total do dataset (com regularizacao): 0.8005815497552589
+J total do dataset (com regularizacao): 0.6929057477492553
+J total do dataset (com regularizacao): 0.6984586436941057
+J total do dataset (com regularizacao): 0.6933914245473469
+J total do dataset (com regularizacao): 0.6934861590223852
+J total do dataset (com regularizacao): 0.6930059554959995
+J total do dataset (com regularizacao): 0.6568201920686456
+Fold: 5
+J total do dataset (com regularizacao): 0.7999238488942658
+J total do dataset (com regularizacao): 0.6929351428638156
+J total do dataset (com regularizacao): 0.6984683125552799
+J total do dataset (com regularizacao): 0.6934360917961552
+J total do dataset (com regularizacao): 0.6935151891998081
+J total do dataset (com regularizacao): 0.6930350299161342
+J total do dataset (com regularizacao): 0.6625446348866856
+Fold: 6
+J total do dataset (com regularizacao): 0.7698488435119203
+J total do dataset (com regularizacao): 0.6929164576652731
+J total do dataset (com regularizacao): 0.6969002452289033
+J total do dataset (com regularizacao): 0.6932255019255635
+J total do dataset (com regularizacao): 0.69329682946796
+J total do dataset (com regularizacao): 0.6929482737542819
+J total do dataset (com regularizacao): 0.6687138067977533
+Fold: 7
+J total do dataset (com regularizacao): 0.7473137799157641
+J total do dataset (com regularizacao): 0.6928678002957844
+J total do dataset (com regularizacao): 0.69564361618433
+J total do dataset (com regularizacao): 0.6930271950055196
+J total do dataset (com regularizacao): 0.6930862925521489
+J total do dataset (com regularizacao): 0.6928447274641465
+J total do dataset (com regularizacao): 0.6696907263792966
+Fold: 8
+J total do dataset (com regularizacao): 0.7475175878118189
+J total do dataset (com regularizacao): 0.6928279831149925
+J total do dataset (com regularizacao): 0.6955677533685867
+J total do dataset (com regularizacao): 0.6929595544567582
+J total do dataset (com regularizacao): 0.6930269905622216
+J total do dataset (com regularizacao): 0.6927916512896652
+J total do dataset (com regularizacao): 0.669695073364446
+Fold: 9
+J total do dataset (com regularizacao): 0.7480162508059409
+J total do dataset (com regularizacao): 0.6927922868285868
+J total do dataset (com regularizacao): 0.6955417677604957
+J total do dataset (com regularizacao): 0.6929131355160424
+J total do dataset (com regularizacao): 0.6929857926599958
+J total do dataset (com regularizacao): 0.6927529341681388
+J total do dataset (com regularizacao): 0.669661237650877
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901259]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901688]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902655]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31903704]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901089]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901488]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902633]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31902674]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.3190164]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31900958]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31904287]]
+outputs esperados: [[0.]]
+outputs previstos: [[0.31901905]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901846]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902897]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902154]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903439]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901752]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902483]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.3190189]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901636]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902822]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903697]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901595]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903701]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31904678]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901867]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903385]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903111]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903642]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31901901]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903362]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902469]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31902782]]
+outputs esperados: [[1.]]
+outputs previstos: [[0.31903628]]
+J final: 0.8775404699501134
+Final FMeasure: 0.1714285714285714
+Final Result: 0.01714285714285714
