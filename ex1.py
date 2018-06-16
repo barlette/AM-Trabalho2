@@ -274,7 +274,7 @@ for inc in range(0, 9):
 	for f in range(0, numberFolds):
 		weightLines.append(initialWeightLines)
 	print("Fator de regularizacao:", regFactor)
-	for ln in range(0, 1000):
+	for ln in range(0, 500):
 		folds = divideIntoKFolds(numberFolds, sys.argv[3], int(sys.argv[4]))
 		fMeasures = np.zeros(len(folds))
 		#print(folds[1])
