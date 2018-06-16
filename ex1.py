@@ -267,11 +267,12 @@ numberFolds = 10
 #grad = []
 
 
-weightLines = []
-for f in range(0, numberFolds):
-	weightLines.append(initialWeightLines)
+
 
 for inc in range(0, 9):
+	weightLines = []
+	for f in range(0, numberFolds):
+		weightLines.append(initialWeightLines)
 	print("Fator de regularizacao:", regFactor)
 	for ln in range(0, 1000):
 		folds = divideIntoKFolds(numberFolds, sys.argv[3], int(sys.argv[4]))
